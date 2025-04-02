@@ -80,6 +80,14 @@ in
     driSupport32Bit = true;
   };
 
+    # Mount 2TB NTFS drive labeled 'Ultra' at /mnt/games
+  fileSystems."/mnt/Ultra" = {
+    device = "/dev/disk/by-label/Ultra";
+    fsType = "ntfs";
+    options = [ "uid=1000" "gid=100" "dmask=022" "fmask=133" ];
+  };
+
+
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
