@@ -83,7 +83,7 @@ in
     # Mount 2TB NTFS drive labeled 'Ultra' at /mnt/games
   fileSystems."/mnt/Ultra" = {
     device = "/dev/disk/by-label/Ultra";
-    fsType = "ntfs";
+    fsType = "ntfs-3g";
     options = [ "uid=1000" "gid=100" "dmask=022" "fmask=133" ];
   };
 
