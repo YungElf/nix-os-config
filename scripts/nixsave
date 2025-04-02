@@ -1,0 +1,26 @@
+#!/bin/bash
+
+set -e
+
+cd /etc/nixos
+
+# Optional commit message from first argument
+if [ -n "$1" ]; then
+    MSG="$1"
+else
+    MSG="NixOS rebuild: $(date '+%Y-%m-%d %H:%M:%S')"
+fi
+
+# Try rebuild first
+echo "🔧 Running nixos-rebuild switch..."
+if sudo nixos-rebuild switch; then
+    echo "✅ Rebuild successful. Committing changes..."
+    sudo git add .
+    sudo git commit -m "$MSG"
+    sudo git push
+    echo "🚀 Config committed and pushed to GitHub!"
+else
+    echo "❌ Rebuild failed. Nothing committed."
+    exit 1
+fi
+
