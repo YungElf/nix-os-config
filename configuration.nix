@@ -24,8 +24,10 @@ let
   ];
 
   terminalStuff = with pkgs; [
-    kitty
     tmux
+    (pkgs.writeShellScriptBin "kitty" ''
+      exec ${pkgs.kitty}/bin/kitty --config /etc/nixos/assets/kitty/kitty.conf "$@"
+    '')
   ];
 
   basicStuff = with pkgs; [
@@ -149,6 +151,8 @@ in
   # Install all required packages
   environment.systemPackages =
     devStuff ++ java ++ terminalStuff ++ basicStuff ++ gamingStuff ++ customScripts;
+
+    environment.etc."tmux.conf".source = /etc/nixos/assets/tmux.conf;
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
