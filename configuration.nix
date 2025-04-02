@@ -23,12 +23,13 @@ let
     jdt-language-server
   ];
 
-  terminalStuff = with pkgs; [
-    tmux
-    (pkgs.writeShellScriptBin "kitty" ''
-      exec ${pkgs.kitty}/bin/kitty --config /etc/nixos/assets/kitty/kitty.conf "$@"
-    '')
-  ];
+terminalStuff = with pkgs; [
+  tmux
+  (pkgs.writeShellScriptBin "kitty" ''
+    exec ${pkgs.kitty}/bin/kitty --config /etc/nixos/assets/kitty/kitty.conf \
+      tmux attach || tmux
+  '')
+];
 
   basicStuff = with pkgs; [
     xclip
