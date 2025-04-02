@@ -74,6 +74,12 @@ in
     LC_TIME = "en_US.UTF-8";
   };
 
+
+  hardware.opengl = {
+    enable = true;
+    driSupport32Bit = true;
+  };
+
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
