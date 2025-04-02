@@ -15,6 +15,7 @@ let
     unzip
     curl
     git
+    neovim
   ];
 
   java = with pkgs; [

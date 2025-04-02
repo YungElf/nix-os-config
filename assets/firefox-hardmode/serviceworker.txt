@@ -11,3 +11,15 @@ true
 1
 true
 #
+
+https://www.twitch.tv/
+https://www.twitch.tv/service-worker.js
+false
+{5ccfe2f3-1f56-4fa8-bd58-97e996c0dc0a}
+0
+1743585683994649
+1743585684086801
+1743585683980697
+0
+true
+#
