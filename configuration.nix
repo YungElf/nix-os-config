@@ -80,11 +80,16 @@ in
     driSupport32Bit = true;
   };
 
-    # Mount 2TB NTFS drive labeled 'Ultra' at /mnt/games
-  fileSystems."/mnt/Ultra" = {
+     # Mount 2TB ext4 drive labeled 'Ultra' at /mnt/games
+  fileSystems."/mnt/games" = {
     device = "/dev/disk/by-label/Ultra";
-    fsType = "ntfs-3g";
-    options = [ "uid=1000" "gid=100" "dmask=022" "fmask=133" ];
+    fsType = "ext4";
+  };
+
+  # Mount 500GB ext4 drive labeled 'Sparkle' at /mnt/sparkle
+  fileSystems."/mnt/sparkle" = {
+    device = "/dev/disk/by-label/Sparkle";
+    fsType = "ext4";
   };
 
 
