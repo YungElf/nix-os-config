@@ -54,7 +54,7 @@ user_pref("browser.safebrowsing.phishing.enabled", false);
 user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1743585301958");
 user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1743606901958");
 user_pref("browser.search.serpEventTelemetryCategorization.regionEnabled", false);
-user_pref("browser.search.totalSearches", 2);
+user_pref("browser.search.totalSearches", 3);
 user_pref("browser.selfsupport.url", "");
 user_pref("browser.sessionstore.upgradeBackup.latestBuildID", "20250324135651");
 user_pref("browser.shell.checkDefaultBrowser", false);
