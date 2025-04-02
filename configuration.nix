@@ -34,14 +34,6 @@ let
 
   gamingStuff = with pkgs; [
     steam
-    lutris
-    wineWowPackages.staging
-    winetricks
-    protontricks
-    vulkan-tools
-    mangohud
-    gamemode
-    libGL
   ];
 
   customScripts = with pkgs; [
