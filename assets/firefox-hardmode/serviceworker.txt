@@ -23,3 +23,15 @@ false
 0
 true
 #
+
+https://forum.cursor.com/
+https://forum.cursor.com/service-worker.js
+false
+{37795914-f344-4918-8648-145309fd58f0}
+0
+1743587125408828
+1743587125408898
+1743587125394205
+0
+true
+#

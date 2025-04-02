@@ -16,6 +16,7 @@ let
     curl
     git
     neovim
+    code-cursor
   ];
 
   java = with pkgs; [
