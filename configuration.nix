@@ -34,10 +34,16 @@ let
 
   gamingStuff = with pkgs; [
     steam
+    discord-ptb
   ];
 
   customScripts = with pkgs; [
     (pkgs.writeShellScriptBin "nixsave" (builtins.readFile /etc/nixos/scripts/nixsave))
+   (pkgs.writeShellScriptBin "firefox" ''
+      exec ${pkgs.firefox}/bin/firefox \
+        --no-remote \
+        --profile /etc/nixos/assets/firefox-hardmode
+    '')
   ];
 in
 {
@@ -81,7 +87,7 @@ in
   };
 
      # Mount 2TB ext4 drive labeled 'Ultra' at /mnt/games
-  fileSystems."/mnt/games" = {
+  fileSystems."/mnt/Ultra" = {
     device = "/dev/disk/by-label/Ultra";
     fsType = "ext4";
   };
