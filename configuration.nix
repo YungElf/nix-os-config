@@ -25,7 +25,7 @@ let
   ];
 
 terminalStuff = with pkgs; [
-  tmux
+    # tmux
 ];
 
   basicStuff = with pkgs; [
