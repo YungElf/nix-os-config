@@ -1,0 +1,388 @@
+/*!
+ * Theia Sticky Sidebar v1.7.0
+ * https://github.com/WeCodePixels/theia-sticky-sidebar
+ *
+ * Glues your website's sidebars, making them permanently visible while scrolling.
+ *
+ * Copyright 2013-2016 WeCodePixels and other contributors
+ * Released under the MIT license
+ */
+
+(function ($) {
+    $.fn.theiaStickySidebar = function (options) {
+        var defaults = {
+            'containerSelector': '',
+            'additionalMarginTop': 0,
+            'additionalMarginBottom': 0,
+            'updateSidebarHeight': true,
+            'minWidth': 0,
+            'disableOnResponsiveLayouts': true,
+            'sidebarBehavior': 'modern',
+            'defaultPosition': 'relative',
+            'namespace': 'TSS'
+        };
+        options = $.extend(defaults, options);
+
+        // Validate options
+        options.additionalMarginTop = parseInt(options.additionalMarginTop) || 0;
+        options.additionalMarginBottom = parseInt(options.additionalMarginBottom) || 0;
+
+        tryInitOrHookIntoEvents(options, this);
+
+        // Try doing init, otherwise hook into window.resize and document.scroll and try again then.
+        function tryInitOrHookIntoEvents(options, $that) {
+            var success = tryInit(options, $that);
+
+            if (!success) {
+                console.log('TSS: Body width smaller than options.minWidth. Init is delayed.');
+
+                $(document).on('scroll.' + options.namespace, function (options, $that) {
+                    return function (evt) {
+                        var success = tryInit(options, $that);
+
+                        if (success) {
+                            $(this).unbind(evt);
+                        }
+                    };
+                }(options, $that));
+                $(window).on('resize.' + options.namespace, function (options, $that) {
+                    return function (evt) {
+                        var success = tryInit(options, $that);
+
+                        if (success) {
+                            $(this).unbind(evt);
+                        }
+                    };
+                }(options, $that))
+            }
+        }
+
+        // Try doing init if proper conditions are met.
+        function tryInit(options, $that) {
+            if (options.initialized === true) {
+                return true;
+            }
+
+            if ($('body').width() < options.minWidth) {
+                return false;
+            }
+
+            init(options, $that);
+
+            return true;
+        }
+
+        // Init the sticky sidebar(s).
+        function init(options, $that) {
+            options.initialized = true;
+
+            // Add CSS
+            var existingStylesheet = $('#theia-sticky-sidebar-stylesheet-' + options.namespace);
+            if (existingStylesheet.length === 0) {
+                $('head').append($('<style id="theia-sticky-sidebar-stylesheet-' + options.namespace + '">.theiaStickySidebar:after {content: ""; display: table; clear: both;}</style>'));
+            }
+
+            $that.each(function () {
+                var o = {};
+
+                o.sidebar = $(this);
+
+                // Save options
+                o.options = options || {};
+
+                // Get container
+                o.container = $(o.options.containerSelector);
+                if (o.container.length == 0) {
+                    o.container = o.sidebar.parent();
+                }
+
+                // Create sticky sidebar
+                o.sidebar.parents().css('-webkit-transform', 'none'); // Fix for WebKit bug - https://code.google.com/p/chromium/issues/detail?id=20574
+                o.sidebar.css({
+                    'position': o.options.defaultPosition,
+                    'overflow': 'visible',
+                    // The "box-sizing" must be set to "content-box" because we set a fixed height to this element when the sticky sidebar has a fixed position.
+                    '-webkit-box-sizing': 'border-box',
+                    '-moz-box-sizing': 'border-box',
+                    'box-sizing': 'border-box'
+                });
+
+                // Get the sticky sidebar element. If none has been found, then create one.
+                o.stickySidebar = o.sidebar.find('.theiaStickySidebar');
+                if (o.stickySidebar.length == 0) {
+                    // Remove <script> tags, otherwise they will be run again when added to the stickySidebar.
+                    var javaScriptMIMETypes = /(?:text|application)\/(?:x-)?(?:javascript|ecmascript)/i;
+                    o.sidebar.find('script').filter(function (index, script) {
+                        return script.type.length === 0 || script.type.match(javaScriptMIMETypes);
+                    }).remove();
+
+                    o.stickySidebar = $('<div>').addClass('theiaStickySidebar').append(o.sidebar.children());
+                    o.sidebar.append(o.stickySidebar);
+                }
+
+                // Get existing top and bottom margins and paddings
+                o.marginBottom = parseInt(o.sidebar.css('margin-bottom'));
+                o.paddingTop = parseInt(o.sidebar.css('padding-top'));
+                o.paddingBottom = parseInt(o.sidebar.css('padding-bottom'));
+
+                // Add a temporary padding rule to check for collapsable margins.
+                var collapsedTopHeight = o.stickySidebar.offset().top;
+                var collapsedBottomHeight = o.stickySidebar.outerHeight();
+                o.stickySidebar.css('padding-top', 1);
+                o.stickySidebar.css('padding-bottom', 1);
+                collapsedTopHeight -= o.stickySidebar.offset().top;
+                collapsedBottomHeight = o.stickySidebar.outerHeight() - collapsedBottomHeight - collapsedTopHeight;
+                if (collapsedTopHeight == 0) {
+                    o.stickySidebar.css('padding-top', 0);
+                    o.stickySidebarPaddingTop = 0;
+                }
+                else {
+                    o.stickySidebarPaddingTop = 1;
+                }
+
+                if (collapsedBottomHeight == 0) {
+                    o.stickySidebar.css('padding-bottom', 0);
+                    o.stickySidebarPaddingBottom = 0;
+                }
+                else {
+                    o.stickySidebarPaddingBottom = 1;
+                }
+
+                // We use this to know whether the user is scrolling up or down.
+                o.previousScrollTop = null;
+
+                // Scroll top (value) when the sidebar has fixed position.
+                o.fixedScrollTop = 0;
+
+                // Set sidebar to default values.
+                resetSidebar();
+
+                o.onScroll = function (o) {
+                    // Stop if the sidebar isn't visible.
+                    if (!o.stickySidebar.is(":visible")) {
+                        return;
+                    }
+
+                    // Stop if the window is too small.
+                    if ($('body').width() < o.options.minWidth) {
+                        resetSidebar();
+                        return;
+                    }
+
+                    // Stop if the sidebar width is larger than the container width (e.g. the theme is responsive and the sidebar is now below the content)
+                    if (o.options.disableOnResponsiveLayouts) {
+                        var sidebarWidth = o.sidebar.outerWidth(o.sidebar.css('float') == 'none');
+
+                        if (sidebarWidth + 50 > o.container.width()) {
+                            resetSidebar();
+                            return;
+                        }
+                    }
+
+                    var scrollTop = $(document).scrollTop();
+                    var position = 'static';
+
+                    // If the user has scrolled down enough for the sidebar to be clipped at the top, then we can consider changing its position.
+                    if (scrollTop >= o.sidebar.offset().top + (o.paddingTop - o.options.additionalMarginTop)) {
+                        // The top and bottom offsets, used in various calculations.
+                        var offsetTop = o.paddingTop + options.additionalMarginTop;
+                        var offsetBottom = o.paddingBottom + o.marginBottom + options.additionalMarginBottom;
+
+                        // All top and bottom positions are relative to the window, not to the parent elemnts.
+                        var containerTop = o.sidebar.offset().top;
+                        var containerBottom = o.sidebar.offset().top + getClearedHeight(o.container);
+
+                        // The top and bottom offsets relative to the window screen top (zero) and bottom (window height).
+                        var windowOffsetTop = 0 + options.additionalMarginTop;
+                        var windowOffsetBottom;
+
+                        var sidebarSmallerThanWindow = (o.stickySidebar.outerHeight() + offsetTop + offsetBottom) < $(window).height();
+                        if (sidebarSmallerThanWindow) {
+                            windowOffsetBottom = windowOffsetTop + o.stickySidebar.outerHeight();
+                        }
+                        else {
+                            windowOffsetBottom = $(window).height() - o.marginBottom - o.paddingBottom - options.additionalMarginBottom;
+                        }
+
+                        var staticLimitTop = containerTop - scrollTop + o.paddingTop;
+                        var staticLimitBottom = containerBottom - scrollTop - o.paddingBottom - o.marginBottom;
+
+                        var top = o.stickySidebar.offset().top - scrollTop;
+                        var scrollTopDiff = o.previousScrollTop - scrollTop;
+
+                        // If the sidebar position is fixed, then it won't move up or down by itself. So, we manually adjust the top coordinate.
+                        if (o.stickySidebar.css('position') == 'fixed') {
+                            if (o.options.sidebarBehavior == 'modern') {
+                                top += scrollTopDiff;
+                            }
+                        }
+
+                        if (o.options.sidebarBehavior == 'stick-to-top') {
+                            top = options.additionalMarginTop;
+                        }
+
+                        if (o.options.sidebarBehavior == 'stick-to-bottom') {
+                            top = windowOffsetBottom - o.stickySidebar.outerHeight();
+                        }
+
+                        if (scrollTopDiff > 0) { // If the user is scrolling up.
+                            top = Math.min(top, windowOffsetTop);
+                        }
+                        else { // If the user is scrolling down.
+                            top = Math.max(top, windowOffsetBottom - o.stickySidebar.outerHeight());
+                        }
+
+                        top = Math.max(top, staticLimitTop);
+
+                        top = Math.min(top, staticLimitBottom - o.stickySidebar.outerHeight());
+
+                        // If the sidebar is the same height as the container, we won't use fixed positioning.
+                        var sidebarSameHeightAsContainer = o.container.height() == o.stickySidebar.outerHeight();
+
+                        if (!sidebarSameHeightAsContainer && top == windowOffsetTop) {
+                            position = 'fixed';
+                        }
+                        else if (!sidebarSameHeightAsContainer && top == windowOffsetBottom - o.stickySidebar.outerHeight()) {
+                            position = 'fixed';
+                        }
+                        else if (scrollTop + top - o.sidebar.offset().top - o.paddingTop <= options.additionalMarginTop) {
+                            // Stuck to the top of the page. No special behavior.
+                            position = 'static';
+                        }
+                        else {
+                            // Stuck to the bottom of the page.
+                            position = 'absolute';
+                        }
+                    }
+
+                    /*
+                     * Performance notice: It's OK to set these CSS values at each resize/scroll, even if they don't change.
+                     * It's way slower to first check if the values have changed.
+                     */
+                    if (position == 'fixed') {
+                        var scrollLeft = $(document).scrollLeft();
+
+                        o.stickySidebar.css({
+                            'position': 'fixed',
+                            'width': getWidthForObject(o.stickySidebar) + 'px',
+                            'transform': 'translateY(' + top + 'px)',
+                            'left': (o.sidebar.offset().left + parseInt(o.sidebar.css('padding-left')) - scrollLeft) + 'px',
+                            'top': '0px'
+                        });
+                    }
+                    else if (position == 'absolute') {
+                        var css = {};
+
+                        if (o.stickySidebar.css('position') != 'absolute') {
+                            css.position = 'absolute';
+                            css.transform = 'translateY(' + (scrollTop + top - o.sidebar.offset().top - o.stickySidebarPaddingTop - o.stickySidebarPaddingBottom) + 'px)';
+                            css.top = '0px';
+                        }
+
+                        css.width = getWidthForObject(o.stickySidebar) + 'px';
+                        css.left = '';
+
+                        o.stickySidebar.css(css);
+                    }
+                    else if (position == 'static') {
+                        resetSidebar();
+                    }
+
+                    if (position != 'static') {
+                        if (o.options.updateSidebarHeight == true) {
+                            o.sidebar.css({
+                                'min-height': o.stickySidebar.outerHeight() + o.stickySidebar.offset().top - o.sidebar.offset().top + o.paddingBottom
+                            });
+                        }
+                    }
+
+                    o.previousScrollTop = scrollTop;
+                };
+
+                // Initialize the sidebar's position.
+                o.onScroll(o);
+
+                // Recalculate the sidebar's position on every scroll and resize.
+                $(document).on('scroll.' + o.options.namespace, function (o) {
+                    return function () {
+                        o.onScroll(o);
+                    };
+                }(o));
+                $(window).on('resize.' + o.options.namespace, function (o) {
+                    return function () {
+                        o.stickySidebar.css({'position': 'static'});
+                        o.onScroll(o);
+                    };
+                }(o));
+
+                // Recalculate the sidebar's position every time the sidebar changes its size.
+                if (typeof ResizeSensor !== 'undefined') {
+                    new ResizeSensor(o.stickySidebar[0], function (o) {
+                        return function () {
+                            o.onScroll(o);
+                        };
+                    }(o));
+                }
+
+                // Reset the sidebar to its default state
+                function resetSidebar() {
+                    o.fixedScrollTop = 0;
+                    o.sidebar.css({
+                        'min-height': '1px'
+                    });
+                    o.stickySidebar.css({
+                        'position': 'static',
+                        'width': '',
+                        'transform': 'none'
+                    });
+                }
+
+                // Get the height of a div as if its floated children were cleared. Note that this function fails if the floats are more than one level deep.
+                function getClearedHeight(e) {
+                    var height = e.height();
+
+                    e.children().each(function () {
+                        height = Math.max(height, $(this).height());
+                    });
+
+                    return height;
+                }
+            });
+        }
+
+        function getWidthForObject(object) {
+            var width;
+
+            try {
+                width = object[0].getBoundingClientRect().width;
+            }
+            catch (err) {
+            }
+
+            if (typeof width === "undefined") {
+                width = object.width();
+            }
+
+            return width;
+        }
+
+        return this;
+    }
+})(jQuery);	aåæI      gîŒgîŒH	â,g÷>   ›    O^partitionKey=%28https%2Cboth.org%29,:https://www.both.org/wp-content/themes/primebulletin/assets/lib/theiaStickySidebar/theia-sticky-sidebar.js?ver=6.7.2 strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Date: Thu, 03 Apr 2025 03:42:04 GMT
+Server: Apache/2.4.63 (Fedora Linux) OpenSSL/3.2.4
+Last-Modified: Fri, 12 Jul 2024 21:57:41 GMT
+ETag: "3fc3-61d13f7f1434f"
+Accept-Ranges: bytes
+Content-Length: 16323
+Content-Type: text/javascript
+ original-response-headers Date: Thu, 03 Apr 2025 03:42:04 GMT
+Server: Apache/2.4.63 (Fedora Linux) OpenSSL/3.2.4
+Last-Modified: Fri, 12 Jul 2024 21:57:41 GMT
+ETag: "3fc3-61d13f7f1434f"
+Accept-Ranges: bytes
+Content-Length: 16323
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Content-Type: text/javascript
+ ctid 2 uncompressed-len 0 net-response-time-onstart 467 net-response-time-onstop 468   ?Ã

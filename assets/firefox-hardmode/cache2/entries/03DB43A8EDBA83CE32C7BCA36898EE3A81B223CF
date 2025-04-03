@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <title>Top Five reasons I use Konsole terminal emulator &#8211; Both.org</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="alternate" type="application/rss+xml" title="Both.org &raquo; Feed" href="https://www.both.org/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Both.org &raquo; Comments Feed" href="https://www.both.org/?feed=comments-rss2" />
+<link rel="alternate" type="application/rss+xml" title="Both.org &raquo; Top Five reasons I use Konsole terminal emulator Comments Feed" href="https://www.both.org/?feed=rss2&#038;p=6672" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.both.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.both.org/wp-includes/css/dist/block-library/style.min.css?ver=6.7.2' media='all' />
+<style id='wp-block-library-theme-inline-css'>
+.wp-block-audio :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio :where(figcaption){color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed :where(figcaption){color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}:root :where(.wp-block-image figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme :root :where(.wp-block-image figcaption){color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote:where(.has-text-align-right){border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote:where(.has-text-align-center){border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote:where(.is-style-plain){border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table :where(figcaption){color:#ffffffa6}.wp-block-video :where(figcaption){color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video :where(figcaption){color:#ffffffa6}.wp-block-video{margin:0 0 1em}:root :where(.wp-block-template-part.has-background){margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<link rel='stylesheet' id='quotescollection-block-quotes-css' href='https://www.both.org/wp-content/plugins/quotes-collection/blocks/quotes/style.css?ver=1551972959' media='all' />
+<link rel='stylesheet' id='quotescollection-block-random-quote-css' href='https://www.both.org/wp-content/plugins/quotes-collection/blocks/random-quote/style.css?ver=1551972959' media='all' />
+<style id='classic-theme-styles-inline-css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='pld-font-awesome-css' href='https://www.both.org/wp-content/plugins/posts-like-dislike/css/fontawesome/css/all.min.css?ver=1.1.5' media='all' />
+<link rel='stylesheet' id='pld-frontend-css' href='https://www.both.org/wp-content/plugins/posts-like-dislike/css/pld-frontend.css?ver=1.1.5' media='all' />
+<link rel='stylesheet' id='ssb-front-css-css' href='https://www.both.org/wp-content/plugins/simple-social-buttons/assets/css/front.css?ver=6.0.0' media='all' />
+<link rel='stylesheet' id='quotescollection-css' href='https://www.both.org/wp-content/plugins/quotes-collection/css/quotes-collection.css?ver=2.5.2' media='all' />
+<link rel='stylesheet' id='primebulletin-google-fonts-css' href='https://www.both.org/wp-content/fonts/22a3a5398b82ac3f0eaf0f3170b28fd8.css?ver=1.1.5' media='all' />
+<link rel='stylesheet' id='magnific-popup-css' href='https://www.both.org/wp-content/themes/primebulletin/assets/lib/magnific-popup/magnific-popup.css?ver=6.7.2' media='all' />
+<link rel='stylesheet' id='slick-css' href='https://www.both.org/wp-content/themes/primebulletin/assets/lib/slick/css/slick.min.css?ver=6.7.2' media='all' />
+<link rel='stylesheet' id='primebulletin-style-css' href='https://www.both.org/wp-content/themes/primebulletin/style.css?ver=1.1.5' media='all' />
+<style id='akismet-widget-style-inline-css'>
+
+			.a-stats {
+				--akismet-color-mid-green: #357b49;
+				--akismet-color-white: #fff;
+				--akismet-color-light-grey: #f6f7f7;
+
+				max-width: 350px;
+				width: auto;
+			}
+
+			.a-stats * {
+				all: unset;
+				box-sizing: border-box;
+			}
+
+			.a-stats strong {
+				font-weight: 600;
+			}
+
+			.a-stats a.a-stats__link,
+			.a-stats a.a-stats__link:visited,
+			.a-stats a.a-stats__link:active {
+				background: var(--akismet-color-mid-green);
+				border: none;
+				box-shadow: none;
+				border-radius: 8px;
+				color: var(--akismet-color-white);
+				cursor: pointer;
+				display: block;
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen-Sans', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
+				font-weight: 500;
+				padding: 12px;
+				text-align: center;
+				text-decoration: none;
+				transition: all 0.2s ease;
+			}
+
+			/* Extra specificity to deal with TwentyTwentyOne focus style */
+			.widget .a-stats a.a-stats__link:focus {
+				background: var(--akismet-color-mid-green);
+				color: var(--akismet-color-white);
+				text-decoration: none;
+			}
+
+			.a-stats a.a-stats__link:hover {
+				filter: brightness(110%);
+				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06), 0 0 2px rgba(0, 0, 0, 0.16);
+			}
+
+			.a-stats .count {
+				color: var(--akismet-color-white);
+				display: block;
+				font-size: 1.5em;
+				line-height: 1.4;
+				padding: 0 13px;
+				white-space: nowrap;
+			}
+		
+</style>
+<script src="https://www.both.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://www.both.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script id="pld-frontend-js-extra">
+var pld_js_object = {"admin_ajax_url":"https:\/\/www.both.org\/wp-admin\/admin-ajax.php","admin_ajax_nonce":"1751369f18"};
+</script>
+<script src="https://www.both.org/wp-content/plugins/posts-like-dislike/js/pld-frontend.js?ver=1.1.5" id="pld-frontend-js"></script>
+<script id="quotescollection-js-extra">
+var quotescollectionAjax = {"ajaxUrl":"https:\/\/www.both.org\/wp-admin\/admin-ajax.php","nonce":"f42c7efbd3","nextQuote":"Next quote \u00bb","loading":"Loading...","error":"Error getting quote","autoRefreshMax":"20","autoRefreshCount":"0"};
+</script>
+<script src="https://www.both.org/wp-content/plugins/quotes-collection/js/quotes-collection.js?ver=2.5.2" id="quotescollection-js"></script>
+<link rel="https://api.w.org/" href="https://www.both.org/index.php?rest_route=/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.both.org/index.php?rest_route=/wp/v2/posts/6672" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.both.org/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.7.2" />
+<link rel="canonical" href="https://www.both.org/?p=6672" />
+<link rel='shortlink' href='https://www.both.org/?p=6672' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.both.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fwww.both.org%2F%3Fp%3D6672" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.both.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fwww.both.org%2F%3Fp%3D6672&#038;format=xml" />
+<style></style> <style media="screen">
+
+		.simplesocialbuttons.simplesocialbuttons_inline .ssb-fb-like, .simplesocialbuttons.simplesocialbuttons_inline amp-facebook-like {
+	  margin: ;
+	}
+		 /*inline margin*/
+	
+	
+	
+	
+	
+	
+			 .simplesocialbuttons.simplesocialbuttons_inline.simplesocial-simple-icons button{
+		 margin: ;
+	 }
+
+			 /*margin-digbar*/
+
+	
+	
+	
+	
+	
+	
+	
+</style>
+
+<!-- Open Graph Meta Tags generated by Simple Social Buttons 6.0.0 -->
+<meta property="og:title" content="Top Five reasons I use Konsole terminal emulator - Both.org" />
+<meta property="og:description" content="The most important tool for all Linux SysAdmins is the terminal emulator we choose. There are many from which to choose and all have features that make them favorites for their users. A terminal emulator is a software program that emulates a hardware terminal. The function of any emulator is to provide access to the command line of the local&hellip;" />
+<meta property="og:url" content="https://www.both.org/?p=6672" />
+<meta property="og:site_name" content="Both.org" />
+<meta property="og:image" content="https://www.both.org/wp-content/uploads/2024/01/top5_stars_sky.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="The most important tool for all Linux SysAdmins is the terminal emulator we choose. There are many from which to choose and all have features that make them favorites for their users. A terminal emulator is a software program that emulates a hardware terminal. The function of any emulator is to provide access to the command line of the local&hellip;" />
+<meta name="twitter:title" content="Top Five reasons I use Konsole terminal emulator - Both.org" />
+<meta property="twitter:image" content="https://www.both.org/wp-content/uploads/2024/01/top5_stars_sky.png" />
+<!-- Analytics by WP Statistics - https://wp-statistics.com -->
+
+		<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
+	
+	        <style type="text/css">
+                        .header-titles .custom-logo-name,
+            .site-description {
+                color: #ffffff;
+            }
+
+            
+            .theme-header {
+                background-color: #1a1d20;
+            }
+        </style>
+        		<style id="wp-custom-css">
+			code, kbd, tt, var {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-size: 25px;
+    font-size: 1.5rem;
+}
+
+pre {
+    background: #eee;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 25px;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.6em;
+}		</style>
+		</head>
+
+<body class="post-template-default single single-post postid-6672 single-format-standard wp-embed-responsive right-sidebar twp-single-layout-1">
+
+
+
+    <div class="preloader hide-no-js">
+        <div class="preloader-wrapper">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+
+<div id="page" class="hfeed site">
+<a class="skip-link screen-reader-text" href="#content">Skip to the content</a>
+
+
+<header id="site-header" class="theme-header " role="banner">
+    
+    <div class="header-mainbar  data-bg header-bg-1  "   data-background="https://www.both.org/wp-content/uploads/2023/10/LabBlogHeader3.jpg" >
+        <div class="wrapper header-wrapper">
+            <div class="header-item header-item-left">
+                <div class="header-titles">
+                    <div class="site-title"><a href="https://www.both.org/" class="custom-logo-name">Both.org</a></div><div class="site-description"><span>News, Opinion, Tutorials, and Community for Linux Users and SysAdmins</span></div><!-- .site-description -->                </div>
+            </div>
+
+            <div class="header-item header-item-right">
+
+                        <div class="twp-post-search">
+            <form class="twp-search-form" method="get" action="https://www.both.org/">
+                <div class="twp-search-wrapper">
+                    <div class="twp-cat-list">
+                        <select class="twp-post-cats" id="twp-post-cat" name="category_name"><option value="" selected>Select Category</option><option value="accessibility" >Accessibility</option><option value="advanced" >Advanced</option><option value="ai" >AI</option><option value="all-things-open" >All Things Open</option><option value="announcement" >Announcement</option><option value="ansible" >Ansible</option><option value="anti-malware" >Anti-Malware</option><option value="applications" >Applications</option><option value="arts" >Arts</option><option value="automation" >Automation</option><option value="backups" >Backups</option><option value="bash" >Bash</option><option value="book" >Book</option><option value="book-signing" >Book Signing</option><option value="books" >Books</option><option value="boot" >Boot</option><option value="both-org" >Both.org</option><option value="challenge" >Challenge</option><option value="climate-and-environment" >Climate and Environment</option><option value="cloud" >Cloud</option><option value="code" >Code</option><option value="command-line" >Command Line</option><option value="community" >Community</option><option value="compatibility" >Compatibility</option><option value="computer-security" >Computer Security</option><option value="configuration" >Configuration</option><option value="cross-platform" >Cross-platform</option><option value="curiosity" >Curiosity</option><option value="cygwin" >CygWin</option><option value="data-streams" >Data Streams</option><option value="debugging" >Debugging</option><option value="design" >Design</option><option value="desktop" >Desktop</option><option value="development" >Development</option><option value="devops" >DevOps</option><option value="digital-images" >Digital Images</option><option value="disk-management" >Disk Management</option><option value="distributions" >Distributions</option><option value="diversity" >Diversity</option><option value="document-conversion" >Document Conversion</option><option value="documentation" >Documentation</option><option value="drupal" >Drupal</option><option value="education" >Education</option><option value="email" >Email</option><option value="environment" >Environment</option><option value="errata" >Errata</option><option value="event" >Event</option><option value="fedora" >Fedora</option><option value="file-management" >File Management</option><option value="filesystems" >Filesystems</option><option value="financial-analysis" >Financial analysis</option><option value="firewall" >Firewall</option><option value="fixing-problems" >Fixing problems</option><option value="freedos" >FreeDOS</option><option value="fun" >Fun</option><option value="gaming" >Gaming</option><option value="getting-started" >Getting Started</option><option value="git" >Git</option><option value="graphics" >Graphics</option><option value="grub" >GRUB</option><option value="hardware" >Hardware</option><option value="history" >History</option><option value="humor" >Humor</option><option value="i-realy-borked-it-this-time" >I really borked it this time</option><option value="in-depth" >In Depth</option><option value="information" >Information</option><option value="installation" >Installation</option><option value="kde" >KDE</option><option value="kernel" >Kernel</option><option value="knowlege" >Knowlege</option><option value="lazy-sysadmin" >Lazy SysAdmin</option><option value="leadership" >Leadership</option><option value="libreoffice" >LibreOffice</option><option value="license" >License</option><option value="linux" >Linux</option><option value="linux-101" >Linux 101</option><option value="linux-filesystem-hierarchical-standard" >Linux Filesystem Hierarchical Standard</option><option value="linux-filesystem-hierarchical-structure" >Linux Filesystem Hierarchical Structure</option><option value="linux-kernel" >Linux Kernel</option><option value="linux-philosophy" >Linux Philosophy</option><option value="logical-volume-management" >Logical Volume Management</option><option value="macos" >macOS</option><option value="maintenance" >Maintenance</option><option value="moving-to-linux" >Moving to Linux</option><option value="multimedia" >Multimedia</option><option value="musings" >Musings</option><option value="my-linux-story" >My Linux Story</option><option value="my-story" >My Story</option><option value="name-services" >Name Services</option><option value="networking" >Networking</option><option value="networkmanager" >NetworkManager</option><option value="news" >News</option><option value="ohio-linuxfest" >Ohio LinuxFest</option><option value="open" >Open</option><option value="open-organization" >Open Organization</option><option value="open-source" >Open Source</option><option value="open-source-101" >Open Source 101</option><option value="open-source-software" >Open Source Software</option><option value="operating-system" >Operating System</option><option value="opinion" >Opinion</option><option value="outage" >Outage</option><option value="pandoc" >Pandoc</option><option value="performance" >Performance</option><option value="perl" >Perl</option><option value="portability" >Portability</option><option value="post-installation" >Post-installation</option><option value="powershell" >PowerShell</option><option value="privacy" >Privacy</option><option value="problem-solving" >Problem Solving</option><option value="prognostication" >Prognostication</option><option value="programming" >Programming</option><option value="python" >Python</option><option value="qemu" >QEMU</option><option value="raku" >Raku</option><option value="ramblings" >Ramblings</option><option value="rant" >Rant</option><option value="raspberry-pi" >Raspberry Pi</option><option value="raspberry-pi-1" >Raspberry Pi 1</option><option value="review" >Review</option><option value="right-to-repair" >Right to Repair</option><option value="robotics" >Robotics</option><option value="rpm" >RPM</option><option value="rsync" >rsync</option><option value="security" >Security</option><option value="sendmail" >sendmail</option><option value="size" >Size</option><option value="social-media" >Social Media</option><option value="software" >Software</option><option value="speaking-engagements" >Speaking engagements</option><option value="special-filesystems" >Special Filesystems</option><option value="ssh" >SSH</option><option value="sshfs" >SSHFS</option><option value="startup" >Startup</option><option value="storage-management" >Storage Management</option><option value="storage-management-tools" >Storage Management Tools</option><option value="subscribe" >Subscribe</option><option value="sustainability" >Sustainability</option><option value="swap" >Swap</option><option value="synchronization" >Synchronization</option><option value="system-administration" >System Administration</option><option value="systemd" >systemd</option><option value="systemv" >SystemV</option><option value="talk" >Talk</option><option value="terminal" >Terminal</option><option value="testing" >Testing</option><option value="text-editors" >Text Editors</option><option value="the-linux-philosophy-for-sysadmins" >The Linux Philosophy for SysAdmins</option><option value="thoughts" >Thoughts</option><option value="tips-and-tricks" >Tips and tricks</option><option value="tools" >Tools</option><option value="updates" >Updates</option><option value="upgrades" >Upgrades</option><option value="using-and-administering-linux" >Using and Administering Linux</option><option value="using-and-administering-linux-zero-to-sysadmin" >Using and Administering Linux: Zero to SysAdmin</option><option value="video" >Video</option><option value="vim" >Vim</option><option value="virtualbox" >VirtualBox</option><option value="web-server" >Web Server</option><option value="windows" >Windows</option><option value="write-for-us" >Write for Us</option><option value="writing" >Writing</option><option value="xfce" >Xfce</option><option value="zram" >zram</option></select>                        <span class="select-icon-dropdown">
+                        <svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg>                        </span>
+                    </div>
+
+                    <div class="twp-search-text">
+                        <input type="hidden" name="post_type" value="post" />
+                        <input type="text" name="s" class="twp-form-field" value="" placeholder="I&#039;m searching for..."/>
+                    </div>
+
+
+                    <button type="submit" class="twp-search-submit">
+                        Search
+                    </button>
+
+                </div>
+            </form>
+        </div>
+                    
+        <div class="navbar-controls hide-no-js">
+        
+            <button type="button" class="navbar-control navbar-control-search">
+                <span class="navbar-control-trigger" tabindex="-1"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20"><path fill="currentColor" d="M1148.0319,95.6176858 L1151.70711,99.2928932 C1152.09763,99.6834175 1152.09763,100.316582 1151.70711,100.707107 C1151.31658,101.097631 1150.68342,101.097631 1150.29289,100.707107 L1146.61769,97.0318993 C1145.07801,98.2635271 1143.12501,99 1141,99 C1136.02944,99 1132,94.9705627 1132,90 C1132,85.0294372 1136.02944,81 1141,81 C1145.97056,81 1150,85.0294372 1150,90 C1150,92.1250137 1149.26353,94.078015 1148.0319,95.6176858 Z M1146.04139,94.8563911 C1147.25418,93.5976949 1148,91.8859456 1148,90 C1148,86.1340067 1144.86599,83 1141,83 C1137.13401,83 1134,86.1340067 1134,90 C1134,93.8659933 1137.13401,97 1141,97 C1142.88595,97 1144.59769,96.2541764 1145.85639,95.0413859 C1145.88271,95.0071586 1145.91154,94.9742441 1145.94289,94.9428932 C1145.97424,94.9115423 1146.00716,94.8827083 1146.04139,94.8563911 Z" transform="translate(-1132 -81)" /></svg></span>
+            </button>
+
+            <button type="button" class="navbar-control navbar-control-offcanvas">
+                <span class="navbar-control-trigger" tabindex="-1"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M1 3v2h18V3zm0 8h18V9H1zm0 6h18v-2H1z" /></svg></span>
+            </button>
+
+        </div>
+
+    
+            </div>
+        </div>
+    </div>
+
+    <div class="header-navbar">
+        <div class="wrapper header-wrapper">
+            <div class="header-item header-item-left">
+
+                <div class="header-navigation-wrapper header-item-mid">
+                    <div class="site-navigation">
+                        <nav class="primary-menu-wrapper" aria-label="Horizontal" role="navigation">
+                            <ul class="primary-menu theme-menu">
+                                <li class="page_item page-item-3010"><a href="https://www.both.org/?page_id=3010">About Us</a></li>
+<li class="page_item page-item-63 page_item_has_children"><a href="https://www.both.org/?page_id=63">Linux<span class="icon"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg></span></a><ul class='sub-menu'>
+	<li class="page_item page-item-6"><a href="https://www.both.org/?page_id=6">Why I use Linux</a></li>
+	<li class="page_item page-item-844"><a href="https://www.both.org/?page_id=844">The real reason we use Linux</a></li>
+</ul>
+</li>
+<li class="page_item page-item-907 page_item_has_children"><a href="https://www.both.org/?page_id=907">My Linux Books<span class="icon"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg></span></a><ul class='sub-menu'>
+	<li class="page_item page-item-2208"><a href="https://www.both.org/?page_id=2208">Using and Administering Linux – Zero to SysAdmin: 2nd Edition</a></li>
+	<li class="page_item page-item-903"><a href="https://www.both.org/?page_id=903">The Linux Philosophy for SysAdmins</a></li>
+	<li class="page_item page-item-2024"><a href="https://www.both.org/?page_id=2024">Linux for Small Business Owners</a></li>
+	<li class="page_item page-item-1452 page_item_has_children"><a href="https://www.both.org/?page_id=1452">Errata<span class="icon"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg></span></a>	<ul class='sub-menu'>
+		<li class="page_item page-item-9936"><a href="https://www.both.org/?page_id=9936">Errata for The Linux Philosophy for SysAdmins</a></li>
+		<li class="page_item page-item-9938"><a href="https://www.both.org/?page_id=9938">Errata for Using and Administering Linux &#8212; 1st Edition</a></li>
+		<li class="page_item page-item-8849"><a href="https://www.both.org/?page_id=8849">Errata for Using and Administering Linux &#8212; 2nd Edition</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="page_item page-item-4674 page_item_has_children"><a href="https://www.both.org/?page_id=4674">Open Source Resources<span class="icon"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg></span></a><ul class='sub-menu'>
+	<li class="page_item page-item-3085"><a href="https://www.both.org/?page_id=3085">What is Open Source?</a></li>
+	<li class="page_item page-item-4679"><a href="https://www.both.org/?page_id=4679">What is Linux?</a></li>
+	<li class="page_item page-item-56"><a href="https://www.both.org/?page_id=56">What is Open Source Software?</a></li>
+	<li class="page_item page-item-5237"><a href="https://www.both.org/?page_id=5237">The Open Source Way</a></li>
+</ul>
+</li>
+<li class="page_item page-item-3286 page_item_has_children"><a href="https://www.both.org/?page_id=3286">Write for us<span class="icon"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg></span></a><ul class='sub-menu'>
+	<li class="page_item page-item-3015"><a href="https://www.both.org/?page_id=3015">Submission and Style guide</a></li>
+	<li class="page_item page-item-5389"><a href="https://www.both.org/?page_id=5389">Advertising statement</a></li>
+</ul>
+</li>
+<li class="page_item page-item-4666"><a href="https://www.both.org/?page_id=4666">Downloads</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="header-item header-item-right">
+                                    <div class="topbar-trending">
+                        <button type="button" class="navbar-control navbar-control-trending-news">
+                            <span class="navbar-control-trigger" tabindex="-1">
+                                <span class="navbar-controller">
+                                    <span class="navbar-control-icon">
+                                        <svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M8.625 0c.61 7.189-5.625 9.664-5.625 15.996 0 4.301 3.069 7.972 9 8.004 5.931.032 9-4.414 9-8.956 0-4.141-2.062-8.046-5.952-10.474.924 2.607-.306 4.988-1.501 5.808.07-3.337-1.125-8.289-4.922-10.378zm4.711 13c3.755 3.989 1.449 9-1.567 9-1.835 0-2.779-1.265-2.769-2.577.019-2.433 2.737-2.435 4.336-6.423z" /></svg>                                    </span>
+                                    <span class="navbar-control-label">
+                                        Trending News                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </div>
+                            </div>
+        </div>
+        
+            <div class="trending-news-main-wrap">
+               <div class="wrapper">
+                    <div class="column-row">
+
+                        <a href="javascript:void(0)" class="primebulletin-skip-link-start"></a>
+
+                        <div class="column column-12">
+                            <button type="button" id="trending-collapse">
+                                <svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><polygon fill="currentColor" fill-rule="evenodd" points="6.852 7.649 .399 1.195 1.445 .149 7.899 6.602 14.352 .149 15.399 1.195 8.945 7.649 15.399 14.102 14.352 15.149 7.899 8.695 1.445 15.149 .399 14.102" /></svg>                            </button>
+                        </div>
+
+                                                    <div class="column column-4 column-sm-6">
+
+                                <article id="theme-post-10054" class="news-article mb-20 post-10054 post type-post status-publish format-standard has-post-thumbnail hentry category-backups category-linux category-linux-philosophy tag-backups">
+                                    <div class="column-row">
+
+                                        
+                                            <div class="column column-4">
+
+                                                <div class="data-bg data-bg-thumbnail" data-background="https://www.both.org/wp-content/uploads/2023/12/Extedrnal-HDD.jpg">
+
+                                                                                                        <a class="img-link" href="https://www.both.org/?p=10054" aria-label="The Linux Philosophy for SysAdmins, Tenet 19—Backup everything frequently" tabindex="0"></a>
+
+                                                    <div class="trend-item">
+                                                        <span class="number"> 1</span>
+                                                    </div>
+                                        
+                                                </div>
+
+
+                                            </div>
+
+                                        
+                                        <div class="column column-8">
+                                            <div class="article-content">
+
+                                                <h3 class="entry-title entry-title-small">
+                                                    <a href="https://www.both.org/?p=10054" tabindex="0" rel="bookmark" title="The Linux Philosophy for SysAdmins, Tenet 19—Backup everything frequently">The Linux Philosophy for SysAdmins, Tenet 19—Backup everything frequently</a>
+                                                </h3>
+
+                                                <div class="entry-meta">
+                                                    <div class="entry-meta-item entry-meta-date"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z" /></svg><a href="https://www.both.org/?m=20250402" rel="bookmark"><time class="entry-date published" datetime="2025-04-02T01:01:00-04:00">April 2, 2025</time><time class="updated" datetime="2025-03-29T20:45:33-04:00">March 29, 2025</time></a></div>                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                                                        <div class="column column-4 column-sm-6">
+
+                                <article id="theme-post-10094" class="news-article mb-20 post-10094 post type-post status-publish format-standard has-post-thumbnail hentry category-linux tag-april-fool">
+                                    <div class="column-row">
+
+                                        
+                                            <div class="column column-4">
+
+                                                <div class="data-bg data-bg-thumbnail" data-background="https://www.both.org/wp-content/uploads/2024/04/pixelated-world.png">
+
+                                                                                                        <a class="img-link" href="https://www.both.org/?p=10094" aria-label="Microsoft announces significant changes to Windows" tabindex="0"></a>
+
+                                                    <div class="trend-item">
+                                                        <span class="number"> 2</span>
+                                                    </div>
+                                        
+                                                </div>
+
+
+                                            </div>
+
+                                        
+                                        <div class="column column-8">
+                                            <div class="article-content">
+
+                                                <h3 class="entry-title entry-title-small">
+                                                    <a href="https://www.both.org/?p=10094" tabindex="0" rel="bookmark" title="Microsoft announces significant changes to Windows">Microsoft announces significant changes to Windows</a>
+                                                </h3>
+
+                                                <div class="entry-meta">
+                                                    <div class="entry-meta-item entry-meta-date"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z" /></svg><a href="https://www.both.org/?m=20250401" rel="bookmark"><time class="entry-date published" datetime="2025-04-01T01:11:00-04:00">April 1, 2025</time><time class="updated" datetime="2025-03-30T08:36:39-04:00">March 30, 2025</time></a></div>                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                                                        <div class="column column-4 column-sm-6">
+
+                                <article id="theme-post-10079" class="news-article mb-20 post-10079 post type-post status-publish format-standard has-post-thumbnail hentry category-linux">
+                                    <div class="column-row">
+
+                                        
+                                            <div class="column column-4">
+
+                                                <div class="data-bg data-bg-thumbnail" data-background="https://www.both.org/wp-content/uploads/2025/03/MacBook-Air-M3-TomsGuide.jpg">
+
+                                                                                                        <a class="img-link" href="https://www.both.org/?p=10079" aria-label="Open Source on macOS: Exploring Free Software on My M3 MacBook" tabindex="0"></a>
+
+                                                    <div class="trend-item">
+                                                        <span class="number"> 3</span>
+                                                    </div>
+                                        
+                                                </div>
+
+
+                                            </div>
+
+                                        
+                                        <div class="column column-8">
+                                            <div class="article-content">
+
+                                                <h3 class="entry-title entry-title-small">
+                                                    <a href="https://www.both.org/?p=10079" tabindex="0" rel="bookmark" title="Open Source on macOS: Exploring Free Software on My M3 MacBook">Open Source on macOS: Exploring Free Software on My M3 MacBook</a>
+                                                </h3>
+
+                                                <div class="entry-meta">
+                                                    <div class="entry-meta-item entry-meta-date"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z" /></svg><a href="https://www.both.org/?m=20250331" rel="bookmark"><time class="entry-date published" datetime="2025-03-31T01:03:00-04:00">March 31, 2025</time><time class="updated" datetime="2025-03-29T08:04:29-04:00">March 29, 2025</time></a></div>                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                                                        <div class="column column-4 column-sm-6">
+
+                                <article id="theme-post-10072" class="news-article mb-20 post-10072 post type-post status-publish format-standard has-post-thumbnail hentry category-linux category-write-for-us tag-switching-to-linux">
+                                    <div class="column-row">
+
+                                        
+                                            <div class="column column-4">
+
+                                                <div class="data-bg data-bg-thumbnail" data-background="https://www.both.org/wp-content/uploads/2024/06/wfh_work_home_laptop_work.png">
+
+                                                                                                        <a class="img-link" href="https://www.both.org/?p=10072" aria-label="Call for articles &#8212; Switching to Linux" tabindex="0"></a>
+
+                                                    <div class="trend-item">
+                                                        <span class="number"> 4</span>
+                                                    </div>
+                                        
+                                                </div>
+
+
+                                            </div>
+
+                                        
+                                        <div class="column column-8">
+                                            <div class="article-content">
+
+                                                <h3 class="entry-title entry-title-small">
+                                                    <a href="https://www.both.org/?p=10072" tabindex="0" rel="bookmark" title="Call for articles &#8212; Switching to Linux">Call for articles &#8212; Switching to Linux</a>
+                                                </h3>
+
+                                                <div class="entry-meta">
+                                                    <div class="entry-meta-item entry-meta-date"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z" /></svg><a href="https://www.both.org/?m=20250329" rel="bookmark"><time class="entry-date published" datetime="2025-03-29T01:02:00-04:00">March 29, 2025</time><time class="updated" datetime="2025-04-01T08:04:00-04:00">April 1, 2025</time></a></div>                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                                                        <div class="column column-4 column-sm-6">
+
+                                <article id="theme-post-10048" class="news-article mb-20 post-10048 post type-post status-publish format-standard has-post-thumbnail hentry category-security category-windows tag-passkeys tag-ppkp tag-public-private-keypairs">
+                                    <div class="column-row">
+
+                                        
+                                            <div class="column column-4">
+
+                                                <div class="data-bg data-bg-thumbnail" data-background="https://www.both.org/wp-content/uploads/2023/12/th-1882413814.jpg">
+
+                                                                                                        <a class="img-link" href="https://www.both.org/?p=10048" aria-label="Microsoft Warns 1 Billion Windows Users—Do Not Use Password" tabindex="0"></a>
+
+                                                    <div class="trend-item">
+                                                        <span class="number"> 5</span>
+                                                    </div>
+                                        
+                                                </div>
+
+
+                                            </div>
+
+                                        
+                                        <div class="column column-8">
+                                            <div class="article-content">
+
+                                                <h3 class="entry-title entry-title-small">
+                                                    <a href="https://www.both.org/?p=10048" tabindex="0" rel="bookmark" title="Microsoft Warns 1 Billion Windows Users—Do Not Use Password">Microsoft Warns 1 Billion Windows Users—Do Not Use Password</a>
+                                                </h3>
+
+                                                <div class="entry-meta">
+                                                    <div class="entry-meta-item entry-meta-date"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z" /></svg><a href="https://www.both.org/?m=20250328" rel="bookmark"><time class="entry-date published updated" datetime="2025-03-28T09:01:31-04:00">March 28, 2025</time></a></div>                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                                                        <div class="column column-4 column-sm-6">
+
+                                <article id="theme-post-10040" class="news-article mb-20 post-10040 post type-post status-publish format-standard has-post-thumbnail hentry category-linux category-opinion">
+                                    <div class="column-row">
+
+                                        
+                                            <div class="column column-4">
+
+                                                <div class="data-bg data-bg-thumbnail" data-background="https://www.both.org/wp-content/uploads/2025/03/mint_desktop.webp">
+
+                                                                                                        <a class="img-link" href="https://www.both.org/?p=10040" aria-label="Moving from Windows 10 to Linux" tabindex="0"></a>
+
+                                                    <div class="trend-item">
+                                                        <span class="number"> 6</span>
+                                                    </div>
+                                        
+                                                </div>
+
+
+                                            </div>
+
+                                        
+                                        <div class="column column-8">
+                                            <div class="article-content">
+
+                                                <h3 class="entry-title entry-title-small">
+                                                    <a href="https://www.both.org/?p=10040" tabindex="0" rel="bookmark" title="Moving from Windows 10 to Linux">Moving from Windows 10 to Linux</a>
+                                                </h3>
+
+                                                <div class="entry-meta">
+                                                    <div class="entry-meta-item entry-meta-date"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z" /></svg><a href="https://www.both.org/?m=20250327" rel="bookmark"><time class="entry-date published updated" datetime="2025-03-27T13:38:08-04:00">March 27, 2025</time></a></div>                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                                                        <div class="column column-4 column-sm-6">
+
+                                <article id="theme-post-9995" class="news-article mb-20 post-9995 post type-post status-publish format-standard has-post-thumbnail hentry category-documentation category-linux tag-document-everything">
+                                    <div class="column-row">
+
+                                        
+                                            <div class="column column-4">
+
+                                                <div class="data-bg data-bg-thumbnail" data-background="https://www.both.org/wp-content/uploads/2024/06/look-at.jpg">
+
+                                                                                                        <a class="img-link" href="https://www.both.org/?p=9995" aria-label="The Linux Philosophy for SysAdmins, Tenet 18—Document everything" tabindex="0"></a>
+
+                                                    <div class="trend-item">
+                                                        <span class="number"> 7</span>
+                                                    </div>
+                                        
+                                                </div>
+
+
+                                            </div>
+
+                                        
+                                        <div class="column column-8">
+                                            <div class="article-content">
+
+                                                <h3 class="entry-title entry-title-small">
+                                                    <a href="https://www.both.org/?p=9995" tabindex="0" rel="bookmark" title="The Linux Philosophy for SysAdmins, Tenet 18—Document everything">The Linux Philosophy for SysAdmins, Tenet 18—Document everything</a>
+                                                </h3>
+
+                                                <div class="entry-meta">
+                                                    <div class="entry-meta-item entry-meta-date"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z" /></svg><a href="https://www.both.org/?m=20250326" rel="bookmark"><time class="entry-date published" datetime="2025-03-26T01:05:00-04:00">March 26, 2025</time><time class="updated" datetime="2025-03-24T15:41:50-04:00">March 24, 2025</time></a></div>                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                                                        <div class="column column-4 column-sm-6">
+
+                                <article id="theme-post-10006" class="news-article mb-20 post-10006 post type-post status-publish format-standard has-post-thumbnail hentry category-linux category-privacy category-security tag-messaging tag-signal">
+                                    <div class="column-row">
+
+                                        
+                                            <div class="column column-4">
+
+                                                <div class="data-bg data-bg-thumbnail" data-background="https://www.both.org/wp-content/uploads/2023/12/email_chat_communication_message-Cropped-1.png">
+
+                                                                                                        <a class="img-link" href="https://www.both.org/?p=10006" aria-label="Signal Messenger: Privacy, Simplified with Open Source" tabindex="0"></a>
+
+                                                    <div class="trend-item">
+                                                        <span class="number"> 8</span>
+                                                    </div>
+                                        
+                                                </div>
+
+
+                                            </div>
+
+                                        
+                                        <div class="column column-8">
+                                            <div class="article-content">
+
+                                                <h3 class="entry-title entry-title-small">
+                                                    <a href="https://www.both.org/?p=10006" tabindex="0" rel="bookmark" title="Signal Messenger: Privacy, Simplified with Open Source">Signal Messenger: Privacy, Simplified with Open Source</a>
+                                                </h3>
+
+                                                <div class="entry-meta">
+                                                    <div class="entry-meta-item entry-meta-date"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z" /></svg><a href="https://www.both.org/?m=20250325" rel="bookmark"><time class="entry-date published" datetime="2025-03-25T01:04:00-04:00">March 25, 2025</time><time class="updated" datetime="2025-03-30T08:44:42-04:00">March 30, 2025</time></a></div>                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                                                        <div class="column column-4 column-sm-6">
+
+                                <article id="theme-post-10001" class="news-article mb-20 post-10001 post type-post status-publish format-standard has-post-thumbnail hentry category-bash category-documentation category-text-editors category-tips-and-tricks category-tools tag-command-line tag-open-source">
+                                    <div class="column-row">
+
+                                        
+                                            <div class="column column-4">
+
+                                                <div class="data-bg data-bg-thumbnail" data-background="https://www.both.org/wp-content/uploads/2024/12/OPENHERE_blue.png">
+
+                                                                                                        <a class="img-link" href="https://www.both.org/?p=10001" aria-label="Create a patch from differences in a file with the diff and patch commands" tabindex="0"></a>
+
+                                                    <div class="trend-item">
+                                                        <span class="number"> 9</span>
+                                                    </div>
+                                        
+                                                </div>
+
+
+                                            </div>
+
+                                        
+                                        <div class="column column-8">
+                                            <div class="article-content">
+
+                                                <h3 class="entry-title entry-title-small">
+                                                    <a href="https://www.both.org/?p=10001" tabindex="0" rel="bookmark" title="Create a patch from differences in a file with the diff and patch commands">Create a patch from differences in a file with the diff and patch commands</a>
+                                                </h3>
+
+                                                <div class="entry-meta">
+                                                    <div class="entry-meta-item entry-meta-date"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M4.60069444,4.09375 L3.25,4.09375 C2.47334957,4.09375 1.84375,4.72334957 1.84375,5.5 L1.84375,7.26736111 L16.15625,7.26736111 L16.15625,5.5 C16.15625,4.72334957 15.5266504,4.09375 14.75,4.09375 L13.3993056,4.09375 L13.3993056,4.55555556 C13.3993056,5.02154581 13.0215458,5.39930556 12.5555556,5.39930556 C12.0895653,5.39930556 11.7118056,5.02154581 11.7118056,4.55555556 L11.7118056,4.09375 L6.28819444,4.09375 L6.28819444,4.55555556 C6.28819444,5.02154581 5.9104347,5.39930556 5.44444444,5.39930556 C4.97845419,5.39930556 4.60069444,5.02154581 4.60069444,4.55555556 L4.60069444,4.09375 Z M6.28819444,2.40625 L11.7118056,2.40625 L11.7118056,1 C11.7118056,0.534009742 12.0895653,0.15625 12.5555556,0.15625 C13.0215458,0.15625 13.3993056,0.534009742 13.3993056,1 L13.3993056,2.40625 L14.75,2.40625 C16.4586309,2.40625 17.84375,3.79136906 17.84375,5.5 L17.84375,15.875 C17.84375,17.5836309 16.4586309,18.96875 14.75,18.96875 L3.25,18.96875 C1.54136906,18.96875 0.15625,17.5836309 0.15625,15.875 L0.15625,5.5 C0.15625,3.79136906 1.54136906,2.40625 3.25,2.40625 L4.60069444,2.40625 L4.60069444,1 C4.60069444,0.534009742 4.97845419,0.15625 5.44444444,0.15625 C5.9104347,0.15625 6.28819444,0.534009742 6.28819444,1 L6.28819444,2.40625 Z M1.84375,8.95486111 L1.84375,15.875 C1.84375,16.6516504 2.47334957,17.28125 3.25,17.28125 L14.75,17.28125 C15.5266504,17.28125 16.15625,16.6516504 16.15625,15.875 L16.15625,8.95486111 L1.84375,8.95486111 Z" /></svg><a href="https://www.both.org/?m=20250324" rel="bookmark"><time class="entry-date published" datetime="2025-03-24T06:42:18-04:00">March 24, 2025</time><time class="updated" datetime="2025-03-24T07:53:51-04:00">March 24, 2025</time></a></div>                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                            
+                        <a href="javascript:void(0)" class="primebulletin-skip-link-end"></a>
+
+                    </div>
+               </div>
+            </div>
+
+                </div>
+
+</header>
+
+
+<div id="content" class="site-content">
+    
+    <div class="singular-main-block">
+        <div class="wrapper">
+            <div class="column-row">
+
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main " role="main">
+
+                        <div class="entry-breadcrumb"><nav role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><ul class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="2" /><meta name="itemListOrder" content="Ascending" /><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-begin"><a href="https://www.both.org" rel="home" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1" /></li><li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="trail-item trail-end"><a href="https://www.both.org/?p=6672" itemprop="item"><span itemprop="name">Top Five reasons I use Konsole terminal emulator</span></a><meta itemprop="position" content="2" /></li></ul></nav></div>
+            
+                            <div class="article-wraper single-layout  single-layout-default">
+
+                                
+<article id="post-6672" class="post-6672 post type-post status-publish format-standard has-post-thumbnail hentry category-linux"> 
+
+	
+		<div class="post-thumbnail">
+
+			                <img width="520" height="292" src="https://www.both.org/wp-content/uploads/2024/01/top5_stars_sky.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Blue background with shooting stars &quot;Tope Five&quot;" decoding="async" fetchpriority="high" />        			
+		</div>
+
+	
+		<header class="entry-header">
+
+			
+				<div class="entry-meta">
+
+					<div class="entry-meta-item entry-meta-categories"><span class="cat-links">
+                            <a  href="https://www.both.org/?cat=5" rel="category tag">
+                                <span>Linux</span>
+                            </a>
+
+                        </span></div>
+				</div>
+
+			
+			<h1 class="entry-title entry-title-large">
+
+	            Top Five reasons I use Konsole terminal emulator
+	        </h1>
+
+		</header>
+
+	
+		<div class="entry-meta">
+
+			<div class="entry-meta-left"><div class="entry-meta-item entry-meta-avatar"> <img alt='' src='https://secure.gravatar.com/avatar/859a7244917716da40b2288e5d594379?s=96&#038;d=mm&#038;r=g' class='avatar avatar-96 photo' height='96' width='96' /></div></div><div class="entry-meta-right"><div class="entry-meta-item entry-meta-byline"> <a class="url fn n" href="https://www.both.org/?author=2">David Both</a></div><div class="entry-meta-item entry-meta-date"><a href="https://www.both.org/?m=20240806" rel="bookmark"><time class="entry-date published" datetime="2024-08-06T01:08:00-04:00">August 6, 2024</time><time class="updated" datetime="2024-08-06T06:05:27-04:00">August 6, 2024</time></a></div></div>
+		</div>
+
+		
+	<div class="post-content-wrap">
+
+		
+		<div class="post-content">
+
+			<div class="entry-content">
+
+				<div class="pld-like-dislike-wrap pld-template-1">
+    <div class="pld-like-wrap  pld-common-wrap">
+    <a href="javascript:void(0)" class="pld-like-trigger pld-like-dislike-trigger  " title="" data-post-id="6672" data-trigger-type="like" data-restriction="cookie" data-already-liked="0">
+                        <i class="fas fa-thumbs-up"></i>
+                </a>
+    <span class="pld-like-count-wrap pld-count-wrap">0    </span>
+</div></div>
+<p>The most important tool for all Linux SysAdmins is the terminal emulator we choose. There are many from which to choose and all have features that make them favorites for their users. A terminal emulator is a software program that emulates a hardware terminal. The function of any emulator is to provide access to the command line of the local computer, thus allowing the user to enter commands and view the results on the terminal screen.</p>
+
+
+
+<p>The <a href="https://konsole.kde.org/" data-type="link" data-id="https://konsole.kde.org/" target="_blank" rel="noreferrer noopener">Konsole terminal emulator</a> in Figure 1, is a graphical terminal emulator program that runs on any Linux graphical desktop environment like KDE, Cinnamon, LXDE, GNOME, and others. I use it on my Xfce desktop. Konsole is the default terminal emulator for the KDE/Plasma desktop but, like every other terminal emulator I&#8217;ve tried, it runs on every desktop I&#8217;ve used.</p>
+
+
+
+<h2 class="wp-block-heading">My needs</h2>
+
+
+
+<p>My needs for a terminal emulator are those of a SysAdmin. I work on many tasks different on multiple hosts so I need several terminal sessions open simultaneously in order to accomplish that. My choice of terminal emulator is rooted in my need for flexibility in my work and having many options for managing multiple terminal sessions.</p>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-full is-resized"><a href="https://www.both.org/wp-content/uploads/2024/07/Konsole-01.png"><img decoding="async" width="1404" height="1100" src="https://www.both.org/wp-content/uploads/2024/07/Konsole-01.png" alt="" class="wp-image-6674" style="width:743px;height:auto"/></a><figcaption class="wp-element-caption">Figure 1: A typical Konsole session for me, with four open tabs, and three panes open in the visible tab. Click on the image for the full-size version.</figcaption></figure></div>
+
+
+<p>I usually need to view multiple sessions at the same time. And I don&#8217;t want to search through a large number of open windows on my desktop to find that one I need to work on <em>now</em>! That means I need access to many terminal sessions in a single window on my desktop. In addition to its other features, Konsole allows me two methods for doing exactly that. They are, therefore, the first two reasons on my list.</p>
+
+
+
+<h2 class="wp-block-heading">My five reasons</h2>
+
+
+
+<h3 class="wp-block-heading">1. Tabs</h3>
+
+
+
+<p>Tabs are found in many programs and Konsole has them for the same reason&#8211;they make switching between pages in a window easy. </p>
+
+
+
+<p>Figure 1 shows a Konsole window with four tabs. Each tab contains one or more terminal sessions. All of the tabs have a yellow underscore and the selected tab has a blue overscore making it easy to determine which tab is selected. Click on the image to open the larger version. The colors will be probably different for you due to factors such as the desktop you&#8217;re using and its color scheme, as well as the color scheme you use for the terminals. I like to use amber on black for my own best visibility. </p>
+
+
+
+<p>Each tab has a name generated by Konsole using a rule set that can be easily changed. You can also set a static name for each tab; I typically use names like &#8220;Development&#8221; or just &#8220;Dev.&#8221; Just double-click the tab you want to change.</p>
+
+
+
+<p>I usually have multiple tabs open, but the details can vary. For example I usually have one tab open on the local host, my primary workstation. I also usually have between two and four tabs open to other hosts on my network. Sometimes I have a tab or two opened to remote hosts—as in <em>not on my network</em> and <em>geographically separate</em>. Some of those tabs may be open as root and others as non-root users.</p>
+
+
+
+<p>There are times when I want to detach a tab from the current Konsole window and place it into a window of its own. It&#8217;s easy because all I need to do is to drag the tab onto an empty space on the desktop and drop it there. Tabs can also be dragged to their original window. If there is only a single tab in the source window, that window will be destroyed when the tab is dropped onto the target window. </p>
+
+
+
+<p>You can click an empty spot on the tab bar to open a new tab, or you can click the New Tab icon on the toolbar. I usually use the keyboard combo <strong>Ctrl+Shift+T</strong> to open a new tab. There&#8217;s also a New Tab icon on the left edge of the tab bar itself. You can also use <strong>Ctrl+PageUp</strong> and <strong>Ctrl+PageDown</strong> to navigate through the open tabs.</p>
+
+
+
+<p>There may be a limit to the number of tabs that can be open in the Konsole window, but I haven&#8217;t found it. The practical limit is whether you can read the titles in the tabs you do have open.</p>
+
+
+
+<h3 class="wp-block-heading">2. Panes</h3>
+
+
+
+<p>You&#8217;ve already noticed that Figure 1 shows three panes in the selected tab. This split view shows one tall, somewhat narrow window pane on the left that contains the results from a command line program. There are two window panes sharing the right portion of the tab. The <strong>htop</strong> system tool is running in the top pane and the bottom pane shows the results of the <code>df -h</code> command. This ability to split the tabs into multiple panes is one of my favorite features and I use it constantly.</p>
+
+
+
+<p>Splitting the current panel can be done from the menu bar or the toolbar, but I find it easiest to use the keyboard. The <strong>Ctrl+Shift+(</strong> combination creates a vertical split of the current pane, and <strong>Ctrl+Shift+)</strong> creates a horizontal split. Using <strong>Ctrl-Shift</strong> in combination with the arrow keys enables changing the focus between the panes. You can also use the mouse to click on the desired pane in the active tab.</p>
+
+
+
+<p>Like the tabs, there may be a limit to the number of panes that can be opened in each tab, but I still haven&#8217;t found that either. Again, the practical limit is how well you can see the contents of the pane and perform your tasks. </p>
+
+
+
+<h3 class="wp-block-heading">3. Stability</h3>
+
+
+
+<p>It&#8217;s true that all of the best terminal emulators are stable. But this is an important quality and deserves a mention. </p>
+
+
+
+<p>Basic stability means that Konsole never crashes. However it goes way beyond that. For me, stability means that I can always trust Konsole to perform exactly as it is supposed to. Konsole&#8217;s many updates over the years have not caused it to break and, as my current favorite terminal emulator, that means I can always count on it to act as I&#8217;ve configured it to.</p>
+
+
+
+<h3 class="wp-block-heading">4. Notifications</h3>
+
+
+
+<p>I run many tasks using Bash scripts or Ansible playbooks, most of which run anywhere from a few minutes to over an hour. Konsole allows me to set a notification that no activity has occurred in the selected tab for a specified period of time, such as when a long process has completed or is silent due to a hang or error of some sort. I can also set a notification that tells me when something does occur, such as when a long-running script with no other output throws an error or completes, thus causing the command prompt to display. </p>
+
+
+
+<p>This allows me to go do other tasks without the need to check the progress of the process every few minutes. I just wait for the audible notification as well as the pop-up notification on the desktop. </p>
+
+
+
+<h3 class="wp-block-heading">5. Configurability</h3>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full is-resized"><a href="https://www.both.org/wp-content/uploads/2024/07/Konsole-03.png" target="_blank" rel="noreferrer noopener"><img loading="lazy" decoding="async" width="1344" height="942" src="https://www.both.org/wp-content/uploads/2024/07/Konsole-03.png" alt="" class="wp-image-6763" style="width:697px;height:auto"/></a><figcaption class="wp-element-caption">Figure 2: The Konsole configuration tool allows changing almost everything. Click to enlarge.</figcaption></figure></div>
+
+
+<p>As Spock said, &#8220;There are always possibilities.&#8221; </p>
+
+
+
+<p>Like almost every aspect of Linux and the other open source tools and programs we use, Konsole is amazingly configurable. Much of its power is due to its ability to configure almost every aspect of how it works and looks. This power is accessible in multiple ways. As I mention above, tabs can be managed using the keyboard, the menu bar, the icon bar, and the tab bar itself.  </p>
+
+
+
+<p>Much of the configurability of Konsole is exposed to the user via the Profiles. Figure 2 shows the &#8220;Edit Profile&#8221; page for the &#8220;Amber&#8221; profile. Konsole has one default profile, &#8220;Built-in,&#8221; but It&#8217;s possible to create some of our own to meet various needs. Several color combinations are provided and can be easily selected and new ones can be created just as easily. The default profile can&#8217;t be modified.</p>
+
+
+
+<p>One of the configuration options on the General tab of the Configure dialog can be activated so that moving the mouse pointer over any terminal in the active tab moves the focus to that terminal. I don&#8217;t like that, but you may find it suits the way you work.</p>
+
+
+
+<h2 class="wp-block-heading">How I use Konsole</h2>
+
+
+
+<p>The need to connect with multiple computers and to have multiple command line tasks going on many of them as well as on my personal workstation, makes using multiple terminals a necessity. Konsole offers many options for accomplishing that.</p>
+
+
+
+<p>I often have a Konsole window open on one Xfce desktop for working on one project and another window on another desktop where I&#8217;m working on a different project. Within each window I have tabs open in which I&#8217;m working on things related to that project. One tab may be used to display man pages, while another to perform configurations as root, and yet another tab to run the command line program for testing.</p>
+
+
+
+<p>When testing, sometimes it&#8217;s helpful to watch the system performance with htop or glances in one pane while observing the progress of the program in an adjacent pane. </p>
+
+
+
+<h2 class="wp-block-heading">Summary</h2>
+
+
+
+<p>Konsole is the best terminal emulator I&#8217;ve ever used—and there are many excellent ones available.</p>
+
+
+
+<p>The combination of tabs and window panes along with its extensive configurability makes Konsole the perfect choice for my needs and the way I like to work. And that&#8217;s the thing: we all work differently. Konsole allows us to each work the way we do best. Konsole provides many powerful and interesting features that make it incredibly flexible for just that reason. This terminal emulator enhances my ability to perform the tasks I need without getting in the way. I can have as many terminals open as I need, while organizing them in task-related ways that make sense at any given time, and still keep my desktop relatively uncluttered.</p>
+
+
+
+<p>If you haven&#8217;t tried Konsole, you should. </p>
+<div class="simplesocialbuttons simplesocial-simple-icons simplesocialbuttons_inline simplesocialbuttons-align-centered post-6672 post  simplesocialbuttons-inline-no-animation">
+		<button class="ssb_fbshare-icon"  rel="nofollow"  target="_blank"  aria-label="Facebook Share" data-href="https://www.facebook.com/sharer/sharer.php?u=https://www.both.org/?p=6672" onClick="javascript:window.open(this.dataset.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+						<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="_1pbq" color="#ffffff"><path fill="#ffffff" fill-rule="evenodd" class="icon" d="M8 14H3.667C2.733 13.9 2 13.167 2 12.233V3.667A1.65 1.65 0 0 1 3.667 2h8.666A1.65 1.65 0 0 1 14 3.667v8.566c0 .934-.733 1.667-1.667 1.767H10v-3.967h1.3l.7-2.066h-2V6.933c0-.466.167-.9.867-.9H12v-1.8c.033 0-.933-.266-1.533-.266-1.267 0-2.434.7-2.467 2.133v1.867H6v2.066h2V14z"></path></svg></span>
+						<span class="simplesocialtxt">Share </span> </button>
+<button class="ssb_tweet-icon"  rel="nofollow"  target="_blank"  aria-label="Twitter Share" data-href="https://twitter.com/intent/tweet?text=Top+Five+reasons+I+use+Konsole+terminal+emulator&url=https://www.both.org/?p=6672" onClick="javascript:window.open(this.dataset.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+						<span class="icon"><svg viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.9 0H0L5.782 7.7098L0.315 14H2.17L6.6416 8.8557L10.5 14H15.4L9.3744 5.9654L14.56 0H12.705L8.5148 4.8202L4.9 0ZM11.2 12.6L2.8 1.4H4.2L12.6 12.6H11.2Z" fill="#fff"/></svg></span><i class="simplesocialtxt">Post </i></button>
+ <button class="ssb_reddit-icon"  rel="nofollow"  target="_blank"  aria-label="Reddit Share" data-href="https://reddit.com/submit?url=https://www.both.org/?p=6672&title=Top+Five+reasons+I+use+Konsole+terminal+emulator" onClick="javascript:window.open(this.dataset.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+						<span class="icon"> <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						width="430.117px" height="430.117px" viewBox="0 0 430.117 430.117" style="enable-background:new 0 0 430.117 430.117;"
+						xml:space="preserve"> <g> <path id="reddit" d="M307.523,231.062c1.11,2.838,1.614,5.769,1.614,8.681c0,5.862-2.025,11.556-5.423,16.204 c-3.36,4.593-8.121,8.158-13.722,9.727h0.01c-0.047,0.019-0.094,0.019-0.117,0.037c-0.023,0-0.061,0.019-0.079,0.019 c-2.623,0.896-5.312,1.316-7.98,1.316c-6.254,0-12.396-2.254-17.306-6.096c-4.872-3.826-8.56-9.324-9.717-15.845h-0.01 c0-0.019,0-0.042-0.009-0.069c0-0.019,0-0.038-0.019-0.065h0.019c-0.364-1.681-0.551-3.36-0.551-5.021 c0-5.647,1.923-11.07,5.097-15.551c3.164-4.453,7.626-7.99,12.848-9.811c0.019,0,0.038-0.01,0.038-0.01 c0.027,0,0.027-0.027,0.051-0.027c2.954-1.092,6.072-1.639,9.157-1.639c5.619,0,11.154,1.704,15.821,4.821 c4.611,3.066,8.354,7.561,10.23,13.143c0.019,0.037,0.019,0.07,0.037,0.103c0,0.037,0.019,0.057,0.037,0.084H307.523z M290.329,300.349c-2.202-1.428-4.751-2.291-7.448-2.291c-2.175,0-4.434,0.621-6.445,1.955l0,0 c-19.004,11.342-41.355,17.558-63.547,17.558c-16.65,0-33.199-3.514-48.192-10.879l-0.077-0.037l-0.075-0.028 c-2.261-0.924-4.837-2.889-7.647-4.76c-1.428-0.925-2.919-1.844-4.574-2.521c-1.633-0.695-3.447-1.181-5.386-1.181 c-1.605,0-3.292,0.359-4.957,1.115c-0.086,0.033-0.168,0.065-0.252,0.098h0.009c-2.616,0.999-4.66,2.829-5.974,4.994 c-1.372,2.23-2.046,4.826-2.046,7.411c0,2.334,0.551,4.667,1.691,6.786c1.085,2.007,2.754,3.762,4.938,4.938 c21.429,14.454,46.662,21.002,71.992,20.979c22.838,0,45.814-5.287,66.27-14.911l0.107-0.065l0.103-0.056 c2.697-1.597,6.282-3.029,9.661-5.115c1.671-1.064,3.304-2.296,4.704-3.897c1.4-1.591,2.525-3.551,3.16-5.875v-0.01 c0.266-1.026,0.392-2.025,0.392-3.024c0-1.899-0.467-3.701-1.241-5.32C294.361,303.775,292.504,301.778,290.329,300.349z M139.875,265.589c0.037,0,0.086,0.014,0.128,0.037c2.735,0.999,5.554,1.493,8.345,1.493c6.963,0,13.73-2.852,18.853-7.5 c5.115-4.662,8.618-11.257,8.618-18.775c0-0.196,0-0.392-0.009-0.625c0.019-0.336,0.028-0.705,0.028-1.083 c0-7.458-3.456-14.08-8.522-18.762c-5.085-4.686-11.836-7.551-18.825-7.551c-1.867,0-3.769,0.219-5.628,0.653 c-0.028,0-0.049,0.009-0.077,0.009c0,0-0.019,0-0.028,0c-9.252,1.937-17.373,8.803-20.37,18.248l0,0v0.01 c0,0.019-0.009,0.037-0.009,0.037c-0.861,2.586-1.262,5.255-1.262,7.896c0,5.787,1.913,11.426,5.211,16.064 c3.269,4.56,7.894,8.145,13.448,9.819C139.816,265.561,139.835,265.571,139.875,265.589z M430.033,198.094v0.038 c0.066,0.94,0.084,1.878,0.084,2.81c0,10.447-3.351,20.493-8.941,29.016c-5.218,7.976-12.414,14.649-20.703,19.177 c0.532,4.158,0.84,8.349,0.84,12.526c-0.01,22.495-7.766,44.607-21.272,62.329v0.009h-0.028 c-24.969,33.216-63.313,52.804-102.031,62.684h-0.01l-0.027,0.023c-20.647,5.013-41.938,7.574-63.223,7.574 c-31.729,0-63.433-5.722-93.018-17.585l-0.009-0.028h-0.028c-30.672-12.643-59.897-32.739-77.819-62.184 c-9.642-15.71-14.935-34.141-14.935-52.659c0-4.19,0.283-8.387,0.843-12.536c-8.072-4.545-15.063-10.99-20.255-18.687 c-5.542-8.266-9.056-17.95-9.5-28.187v-0.04v-0.037v-0.082c0.009-14.337,6.237-27.918,15.915-37.932 c9.677-10.011,22.896-16.554,37.075-16.554c0.196,0,0.392,0,0.588,0c1.487-0.101,2.987-0.159,4.488-0.159 c7.122,0,14.26,1.153,21.039,3.752l0.037,0.028l0.038,0.012c5.787,2.437,11.537,5.377,16.662,9.449 c1.661-0.871,3.472-1.851,5.504-2.625c31.064-18.395,67.171-25.491,102.358-27.538c0.306-17.431,2.448-35.68,10.949-51.65 c7.08-13.269,19.369-23.599,34-27.179l0.061-0.03l0.079-0.009c5.573-1.078,11.192-1.575,16.774-1.575 c14.869,0,29.561,3.521,43.31,9.017c6.086-9.185,14.776-16.354,24.97-20.375l0.098-0.056l0.098-0.037 c5.983-1.864,12.303-2.954,18.646-2.954c6.692,0,13.437,1.223,19.756,4.046v-0.023c0.009,0.023,0.019,0.023,0.019,0.023 c0.047,0.016,0.084,0.044,0.116,0.044c9.059,3.489,16.727,9.937,22.164,17.95c5.442,8.048,8.644,17.688,8.644,27.599 c0,1.827-0.103,3.657-0.317,5.489l-0.019,0.037c0,0.028,0,0.068-0.01,0.096c-1.063,12.809-7.551,24.047-16.736,32.063 c-9.24,8.048-21.207,12.909-33.49,12.909c-1.97,0-3.958-0.11-5.937-0.374c-12.182-0.931-23.541-6.826-31.886-15.595 c-8.373-8.755-13.768-20.453-13.768-33.08c0-0.611,0.056-1.237,0.074-1.843c-11.435-5.092-23.578-9.316-35.646-9.306 c-1.746,0-3.491,0.096-5.237,0.273h-0.019c-9.035,0.871-17.436,6.566-21.506,14.757v0.009v0.028 c-6.179,12.034-7.411,26.101-7.598,40.064c34.639,2.259,69.483,10.571,100.043,28.138h0.047l0.438,0.259 c0.579,0.343,1.652,0.931,2.623,1.449c2.101-1.704,4.322-3.456,6.856-4.966c9.264-6.17,20.241-9.238,31.223-9.238 c4.872,0,9.749,0.621,14.481,1.834h0.019l0.196,0.058c0.07,0.01,0.121,0.033,0.178,0.033v0.009 c11.183,2.845,21.3,9.267,28.917,17.927c7.612,8.674,12.731,19.648,13.73,31.561v0.025H430.033z M328.002,84.733 c0,0.469,0.01,0.95,0.057,1.44v0.028v0.056c0.224,6.018,3.065,11.619,7.383,15.756c4.34,4.14,10.1,6.702,15.942,6.725h0.08h0.079 c0.42,0.033,0.85,0.033,1.26,0.033c5.899,0.009,11.752-2.532,16.148-6.655c4.405-4.144,7.309-9.78,7.542-15.849l0.009-0.028v-0.037 c0.038-0.464,0.057-0.903,0.057-1.377c0-6.247-2.922-12.202-7.496-16.612c-4.555-4.406-10.688-7.136-16.735-7.12 c-1.951,0-3.884,0.266-5.778,0.854l-0.065,0.005l-0.056,0.023c-4.984,1.295-9.656,4.368-13.012,8.449 C330.046,74.486,328.002,79.508,328.002,84.733z M72.312,177.578c-4.63-2.156-9.418-3.696-14.15-3.676 c-0.794,0-1.597,0.047-2.39,0.133h-0.11l-0.11,0.014c-6.795,0.187-13.653,3.15-18.801,7.899 c-5.152,4.732-8.559,11.122-8.821,18.167v0.065l-0.012,0.058c-0.046,0.57-0.065,1.137-0.065,1.683 c0,4.345,1.333,8.545,3.593,12.368c1.673,2.847,3.867,5.441,6.348,7.701C45.735,204.602,58.142,189.845,72.312,177.578z M374.066,262.635c0-15.5-5.592-31.069-14.646-43.604c-18.053-25.119-46.055-41.502-75.187-50.636l-0.205-0.072 c-5.592-1.715-11.238-3.234-16.933-4.534c-17.025-3.876-34.48-5.806-51.917-5.806c-23.414,0-46.827,3.465-69.245,10.379 c-29.125,9.243-57.221,25.51-75.233,50.71v0.019c-9.129,12.587-14.475,28.208-14.475,43.763c0,5.727,0.716,11.453,2.23,17.025 l0.019,0.01c3.278,12.508,9.689,23.671,17.989,33.393c8.295,9.745,18.472,18.058,29.176,24.839c2.371,1.47,4.751,2.87,7.187,4.237 c31.094,17.356,66.898,24.964,102.445,24.964c6.012,0,12.06-0.214,18.033-0.644c35.797-2.959,71.742-13.525,100.8-35.115 l0.01-0.023c9.25-6.837,17.818-15.112,24.595-24.525c6.805-9.418,11.789-19.947,14.002-31.382V275.6l0.009-0.01 C373.627,271.32,374.066,266.985,374.066,262.635z M402.32,200.95c-0.009-3.762-0.868-7.507-2.753-11l-0.047-0.044l-0.019-0.056 c-2.521-5.19-6.479-9.11-11.248-11.782c-4.77-2.69-10.352-4.056-15.952-4.056c-5.063,0-10.1,1.132-14.57,3.379 c14.216,12.344,26.687,27.179,34.746,44.636c2.595-2.259,4.808-5.018,6.464-8.084C401.098,209.92,402.32,205.405,402.32,200.95z"/></svg></span>
+						<span class="simplesocialtxt">reddit </span></button>
+<button  onClick="javascript:window.open(this.dataset.href, '_blank',  'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600' );return false;"  rel="nofollow"  target="_blank"   aria-label="Facebook Messenger Share" class="simplesocial-viber-share ssb_msng-icon" data-href=http://www.facebook.com/dialog/send?app_id=891268654262273&redirect_uri=https%3A%2F%2Fwww.both.org%2F%3Fp%3D6672&link=https%3A%2F%2Fwww.both.org%2F%3Fp%3D6672&display=popup>
+							 <span class="icon"> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18px" height="19px" viewBox="-889.5 1161 18 19" enable-background="new -889.5 1161 18 19" xml:space="preserve">
+							 <path opacity="0.99" fill="#FFFFFF" enable-background="new    " d="M-880.5,1161c-5,0-9,3.8-9,8.5c0,2.4,1,4.5,2.7,6v4.5l3.8-2.3 c0.8,0.2,1.6,0.3,2.5,0.3c5,0,9-3.8,9-8.5S-875.5,1161-880.5,1161z M-879.6,1172.2l-2.4-2.4l-4.3,2.4l4.7-5.2l2.4,2.4l4.2-2.4 L-879.6,1172.2z"/>
+							 </svg> </span>
+							 <span class="simplesocialtxt">Messenger</span>
+							 </button>
+<div class="fb-like ssb-fb-like" aria-label="Facebook Like" data-href="https://www.both.org/?p=6672" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+ <button class="ssb_pinterest-icon"  rel="nofollow"  target="_blank"  aria-label="Pinterest Share" data-href="https://www.pinterest.com/pin/create/button/?amp=1&guid=zoPaVezhUTzd&url=https://www.both.org/?p=6672"  onClick="var e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','//assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e);return false;">
+						<span class="icon"> <svg xmlns="http://www.w3.org/2000/svg" height="30px" width="30px" viewBox="-1 -1 31 31"><g><path d="M29.449,14.662 C29.449,22.722 22.868,29.256 14.75,29.256 C6.632,29.256 0.051,22.722 0.051,14.662 C0.051,6.601 6.632,0.067 14.75,0.067 C22.868,0.067 29.449,6.601 29.449,14.662" fill="#fff" stroke="#fff" stroke-width="1"></path><path d="M14.733,1.686 C7.516,1.686 1.665,7.495 1.665,14.662 C1.665,20.159 5.109,24.854 9.97,26.744 C9.856,25.718 9.753,24.143 10.016,23.022 C10.253,22.01 11.548,16.572 11.548,16.572 C11.548,16.572 11.157,15.795 11.157,14.646 C11.157,12.842 12.211,11.495 13.522,11.495 C14.637,11.495 15.175,12.326 15.175,13.323 C15.175,14.436 14.462,16.1 14.093,17.643 C13.785,18.935 14.745,19.988 16.028,19.988 C18.351,19.988 20.136,17.556 20.136,14.046 C20.136,10.939 17.888,8.767 14.678,8.767 C10.959,8.767 8.777,11.536 8.777,14.398 C8.777,15.513 9.21,16.709 9.749,17.359 C9.856,17.488 9.872,17.6 9.84,17.731 C9.741,18.141 9.52,19.023 9.477,19.203 C9.42,19.44 9.288,19.491 9.04,19.376 C7.408,18.622 6.387,16.252 6.387,14.349 C6.387,10.256 9.383,6.497 15.022,6.497 C19.555,6.497 23.078,9.705 23.078,13.991 C23.078,18.463 20.239,22.062 16.297,22.062 C14.973,22.062 13.728,21.379 13.302,20.572 C13.302,20.572 12.647,23.05 12.488,23.657 C12.193,24.784 11.396,26.196 10.863,27.058 C12.086,27.434 13.386,27.637 14.733,27.637 C21.95,27.637 27.801,21.828 27.801,14.662 C27.801,7.495 21.95,1.686 14.733,1.686" fill="#bd081c"></path></g></svg> </span>
+						<span class="simplesocialtxt">Pinterest</span> </button>
+ <button  onClick="javascript:window.print();return false;" aria-label="Print The Post" class=" ssb_print-icon simplesocial-email-share"  rel="nofollow"  target="_blank" >
+								<span class="icon"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="16px" height="13.7px" viewBox="-1296.9 1876.4 16 13.7" enable-background="new -1296.9 1876.4 16 13.7" xml:space="preserve"><g>
+								<path fill="#FFFFFF" d="M-1288.9,1879.7c2.3,0,4.6,0,6.9,0c0.4,0,0.7,0.1,0.9,0.5c0.1,0.2,0.1,0.4,0.1,0.6c0,1.7,0,3.4,0,5.1   c0,0.7-0.4,1.1-1.1,1c-0.6,0-1.2,0-1.8,0c-0.1,0-0.2,0-0.2,0.2c0,0.7,0,1.4,0,2c0,0.6-0.4,1-1,1c-0.1,0-0.3,0-0.4,0   c-2.5,0-4.9,0-7.4,0c-0.3,0-0.5,0-0.8-0.1c-0.3-0.2-0.5-0.5-0.5-0.9c0-0.7,0-1.4,0-2c0-0.2-0.1-0.2-0.2-0.2c-0.6,0-1.2,0-1.7,0   c-0.7,0-1-0.4-1-1c0-1.7,0-3.4,0-5.1c0-0.4,0.2-0.8,0.6-0.9c0.2-0.1,0.3-0.1,0.5-0.1C-1293.5,1879.7-1291.2,1879.7-1288.9,1879.7z    M-1288.9,1884.9C-1288.9,1884.9-1288.9,1884.9-1288.9,1884.9c-1.4,0-2.8,0-4.2,0c-0.1,0-0.2,0-0.2,0.2c0,0.3,0,0.7,0,1   c0,1,0,2,0,3c0,0.3,0.1,0.4,0.4,0.4c2.5,0,5.1,0,7.6,0c0.1,0,0.3,0,0.4,0c0.2,0,0.3-0.2,0.3-0.3c0-1.3,0-2.7,0-4   c0-0.2,0-0.2-0.2-0.2C-1286.1,1884.9-1287.5,1884.9-1288.9,1884.9z M-1284.2,1882.4c0.4,0,0.7-0.3,0.7-0.7c0-0.4-0.3-0.7-0.8-0.7   c-0.4,0-0.7,0.3-0.7,0.7C-1284.9,1882.1-1284.6,1882.4-1284.2,1882.4z"/>
+								<path fill="#FFFFFF" d="M-1283.9,1879c-0.2,0-0.4,0-0.5,0c-3.1,0-6.2,0-9.3,0c-0.1,0-0.2,0-0.2-0.2c0-0.5,0-1,0-1.5   c0-0.5,0.4-1,0.9-1c0.1,0,0.2,0,0.3,0c2.6,0,5.2,0,7.8,0c0.6,0,1,0.4,1,1c0,0.5,0,0.9,0,1.4   C-1283.9,1878.9-1283.9,1879-1283.9,1879z"/>
+								<path fill="#FFFFFF" d="M-1291.9,1886.9c0-0.2,0-0.4,0-0.6c2,0,4,0,6,0c0,0.2,0,0.4,0,0.6   C-1287.9,1886.9-1289.9,1886.9-1291.9,1886.9z"/>
+								<path fill="#FFFFFF" d="M-1289.6,1888.2c-0.7,0-1.4,0-2.1,0c-0.1,0-0.2,0-0.2-0.2c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0.2-0.2   c0.1,0,0.2,0,0.3,0c1.3,0,2.6,0,3.9,0c0.3,0,0.3,0,0.3,0.3c0,0.4,0,0.4-0.4,0.4C-1288.3,1888.2-1288.9,1888.2-1289.6,1888.2   C-1289.6,1888.2-1289.6,1888.2-1289.6,1888.2z"/>
+								</g></svg></span>
+								<span class="simplesocialtxt">Print</span>
+								</button>
+</div>
+
+			</div>
+
+			
+				<div class="entry-footer">
+
+                    <div class="entry-meta">
+                                             </div>
+
+                    <div class="entry-meta">
+                                            </div>
+
+				</div>
+
+			
+		</div>
+
+	</div>
+
+</article>
+                                            <div class="comments-wrapper">
+                                                
+<div id="comments" class="comments-area">
+
+		<div id="respond" class="comment-respond">
+		<header class="block-title-wrapper"><h3 class="block-title">Leave a Reply</h3></header><p class="must-log-in">You must be <a href="https://www.both.org/wp-login.php?redirect_to=https%3A%2F%2Fwww.both.org%2F%3Fp%3D6672">logged in</a> to post a comment.</p>	</div><!-- #respond -->
+	
+</div><!-- #comments -->
+                                            </div>
+
+                                        
+                            </div>
+
+                        
+    			<div class="theme-block related-posts-area">
+
+    	        	                        <header class="block-title-wrapper">
+                            <h3 class="block-title">
+                                More Stories                            </h3>
+                        </header>
+    		        
+    	            <div class="content-main">
+
+                                                    <div class="content-list">
+                                <article class="news-article">
+                                    <div class="column-row">
+                                                                                    <div class="column column-5">
+                                                <div class="post-thumbnail">
+                                                    <div class="data-bg data-bg-medium" data-background="https://www.both.org/wp-content/uploads/2023/12/Extedrnal-HDD.jpg">
+
+                                                        
+                                                        <a href="https://www.both.org/?p=10054">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                        <div class="column column-7">
+                                            <div class="article-content">
+                                                <header class="entry-header">
+                                                    <h3 class="entry-title entry-title-medium">
+                                                        <a href="https://www.both.org/?p=10054" rel="bookmark">
+                                                            The Linux Philosophy for SysAdmins, Tenet 19—Backup everything frequently                                                        </a>
+                                                    </h3>
+                                                </header>
+
+                                                <div class="entry-content entry-content-muted entry-content-small">
+                                                    <p>Author&rsquo;s note: This article is excerpted in part from chapter 21 of my book, The Linux Philosophy for SysAdmins, with...</p>                                                </div>
+
+                                                <div class="entry-meta">
+                                                    <div class="entry-meta-left"><div class="entry-meta-item entry-meta-avatar"> <img alt='' src='https://secure.gravatar.com/avatar/859a7244917716da40b2288e5d594379?s=96&#038;d=mm&#038;r=g' class='avatar avatar-96 photo' height='96' width='96' loading='lazy' /></div></div><div class="entry-meta-right"><div class="entry-meta-item entry-meta-byline"> <a class="url fn n" href="https://www.both.org/?author=2">David Both</a></div><div class="entry-meta-item entry-meta-date"><a href="https://www.both.org/?m=20250402" rel="bookmark"><time class="entry-date published" datetime="2025-04-02T01:01:00-04:00">April 2, 2025</time><time class="updated" datetime="2025-03-29T20:45:33-04:00">March 29, 2025</time></a></div></div>                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                                                    <div class="content-list">
+                                <article class="news-article">
+                                    <div class="column-row">
+                                                                                    <div class="column column-5">
+                                                <div class="post-thumbnail">
+                                                    <div class="data-bg data-bg-medium" data-background="https://www.both.org/wp-content/uploads/2024/04/pixelated-world.png">
+
+                                                        
+                                                        <a href="https://www.both.org/?p=10094">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                        <div class="column column-7">
+                                            <div class="article-content">
+                                                <header class="entry-header">
+                                                    <h3 class="entry-title entry-title-medium">
+                                                        <a href="https://www.both.org/?p=10094" rel="bookmark">
+                                                            Microsoft announces significant changes to Windows                                                        </a>
+                                                    </h3>
+                                                </header>
+
+                                                <div class="entry-content entry-content-muted entry-content-small">
+                                                    <p>In a sudden and short press conference early this morning, Microsoft has announced that Windows will be completely restructured at...</p>                                                </div>
+
+                                                <div class="entry-meta">
+                                                    <div class="entry-meta-left"><div class="entry-meta-item entry-meta-avatar"> <img alt='' src='https://secure.gravatar.com/avatar/859a7244917716da40b2288e5d594379?s=96&#038;d=mm&#038;r=g' class='avatar avatar-96 photo' height='96' width='96' loading='lazy' /></div></div><div class="entry-meta-right"><div class="entry-meta-item entry-meta-byline"> <a class="url fn n" href="https://www.both.org/?author=2">David Both</a></div><div class="entry-meta-item entry-meta-date"><a href="https://www.both.org/?m=20250401" rel="bookmark"><time class="entry-date published" datetime="2025-04-01T01:11:00-04:00">April 1, 2025</time><time class="updated" datetime="2025-03-30T08:36:39-04:00">March 30, 2025</time></a></div></div>                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                                                    <div class="content-list">
+                                <article class="news-article">
+                                    <div class="column-row">
+                                                                                    <div class="column column-5">
+                                                <div class="post-thumbnail">
+                                                    <div class="data-bg data-bg-medium" data-background="https://www.both.org/wp-content/uploads/2025/03/MacBook-Air-M3-TomsGuide.jpg">
+
+                                                        
+                                                        <a href="https://www.both.org/?p=10079">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                        <div class="column column-7">
+                                            <div class="article-content">
+                                                <header class="entry-header">
+                                                    <h3 class="entry-title entry-title-medium">
+                                                        <a href="https://www.both.org/?p=10079" rel="bookmark">
+                                                            Open Source on macOS: Exploring Free Software on My M3 MacBook                                                        </a>
+                                                    </h3>
+                                                </header>
+
+                                                <div class="entry-content entry-content-muted entry-content-small">
+                                                    <p>Lead Image by Tom&#039;s Hardware Guide Open-source software is not restricted to Linux. While I spend most of my time...</p>                                                </div>
+
+                                                <div class="entry-meta">
+                                                    <div class="entry-meta-left"><div class="entry-meta-item entry-meta-avatar"> <img alt='' src='https://secure.gravatar.com/avatar/3a6da76366e5d5c539ce298002c8b8f0?s=96&#038;d=mm&#038;r=g' class='avatar avatar-96 photo' height='96' width='96' loading='lazy' /></div></div><div class="entry-meta-right"><div class="entry-meta-item entry-meta-byline"> <a class="url fn n" href="https://www.both.org/?author=32">Don Watkins</a></div><div class="entry-meta-item entry-meta-date"><a href="https://www.both.org/?m=20250331" rel="bookmark"><time class="entry-date published" datetime="2025-03-31T01:03:00-04:00">March 31, 2025</time><time class="updated" datetime="2025-03-29T08:04:29-04:00">March 29, 2025</time></a></div></div>                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                                                    <div class="content-list">
+                                <article class="news-article">
+                                    <div class="column-row">
+                                                                                    <div class="column column-5">
+                                                <div class="post-thumbnail">
+                                                    <div class="data-bg data-bg-medium" data-background="https://www.both.org/wp-content/uploads/2024/06/wfh_work_home_laptop_work.png">
+
+                                                        
+                                                        <a href="https://www.both.org/?p=10072">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                        <div class="column column-7">
+                                            <div class="article-content">
+                                                <header class="entry-header">
+                                                    <h3 class="entry-title entry-title-medium">
+                                                        <a href="https://www.both.org/?p=10072" rel="bookmark">
+                                                            Call for articles &#8212; Switching to Linux                                                        </a>
+                                                    </h3>
+                                                </header>
+
+                                                <div class="entry-content entry-content-muted entry-content-small">
+                                                    <p>October 14, 2025 is the last day of support for Win10 and over 400 million PCs can&#039;t upgrade to Win11....</p>                                                </div>
+
+                                                <div class="entry-meta">
+                                                    <div class="entry-meta-left"><div class="entry-meta-item entry-meta-avatar"> <img alt='' src='https://secure.gravatar.com/avatar/859a7244917716da40b2288e5d594379?s=96&#038;d=mm&#038;r=g' class='avatar avatar-96 photo' height='96' width='96' loading='lazy' /></div></div><div class="entry-meta-right"><div class="entry-meta-item entry-meta-byline"> <a class="url fn n" href="https://www.both.org/?author=2">David Both</a></div><div class="entry-meta-item entry-meta-date"><a href="https://www.both.org/?m=20250329" rel="bookmark"><time class="entry-date published" datetime="2025-03-29T01:02:00-04:00">March 29, 2025</time><time class="updated" datetime="2025-04-01T08:04:00-04:00">April 1, 2025</time></a></div></div>                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                                                    <div class="content-list">
+                                <article class="news-article">
+                                    <div class="column-row">
+                                                                                    <div class="column column-5">
+                                                <div class="post-thumbnail">
+                                                    <div class="data-bg data-bg-medium" data-background="https://www.both.org/wp-content/uploads/2025/03/mint_desktop.webp">
+
+                                                        
+                                                        <a href="https://www.both.org/?p=10040">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                        <div class="column column-7">
+                                            <div class="article-content">
+                                                <header class="entry-header">
+                                                    <h3 class="entry-title entry-title-medium">
+                                                        <a href="https://www.both.org/?p=10040" rel="bookmark">
+                                                            Moving from Windows 10 to Linux                                                        </a>
+                                                    </h3>
+                                                </header>
+
+                                                <div class="entry-content entry-content-muted entry-content-small">
+                                                    <p>Instead of purchasing a new computer just to run a new version of Windows, consider installing Linux.</p>
+                                                </div>
+
+                                                <div class="entry-meta">
+                                                    <div class="entry-meta-left"><div class="entry-meta-item entry-meta-avatar"> <img alt='' src='https://secure.gravatar.com/avatar/6806d30d722e44cb76a923ac27152047?s=96&#038;d=mm&#038;r=g' class='avatar avatar-96 photo' height='96' width='96' loading='lazy' /></div></div><div class="entry-meta-right"><div class="entry-meta-item entry-meta-byline"> <a class="url fn n" href="https://www.both.org/?author=33">Jim Hall</a></div><div class="entry-meta-item entry-meta-date"><a href="https://www.both.org/?m=20250327" rel="bookmark"><time class="entry-date published updated" datetime="2025-03-27T13:38:08-04:00">March 27, 2025</time></a></div></div>                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                                                    <div class="content-list">
+                                <article class="news-article">
+                                    <div class="column-row">
+                                                                                    <div class="column column-5">
+                                                <div class="post-thumbnail">
+                                                    <div class="data-bg data-bg-medium" data-background="https://www.both.org/wp-content/uploads/2024/06/look-at.jpg">
+
+                                                        
+                                                        <a href="https://www.both.org/?p=9995">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        
+                                        <div class="column column-7">
+                                            <div class="article-content">
+                                                <header class="entry-header">
+                                                    <h3 class="entry-title entry-title-medium">
+                                                        <a href="https://www.both.org/?p=9995" rel="bookmark">
+                                                            The Linux Philosophy for SysAdmins, Tenet 18—Document everything                                                        </a>
+                                                    </h3>
+                                                </header>
+
+                                                <div class="entry-content entry-content-muted entry-content-small">
+                                                    <p>&#8220;Real programmers don&#8217;t comment their code, if it was hard to write, it should be hard to understand and harder to modify.&#8221;</p>
+<p>&#8212; unknown</p>
+                                                </div>
+
+                                                <div class="entry-meta">
+                                                    <div class="entry-meta-left"><div class="entry-meta-item entry-meta-avatar"> <img alt='' src='https://secure.gravatar.com/avatar/859a7244917716da40b2288e5d594379?s=96&#038;d=mm&#038;r=g' class='avatar avatar-96 photo' height='96' width='96' loading='lazy' /></div></div><div class="entry-meta-right"><div class="entry-meta-item entry-meta-byline"> <a class="url fn n" href="https://www.both.org/?author=2">David Both</a></div><div class="entry-meta-item entry-meta-date"><a href="https://www.both.org/?m=20250326" rel="bookmark"><time class="entry-date published" datetime="2025-03-26T01:05:00-04:00">March 26, 2025</time><time class="updated" datetime="2025-03-24T15:41:50-04:00">March 24, 2025</time></a></div></div>                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+                        
+    	            </div>
+
+    			</div>
+
+    		
+                    <div class="navigation-wrapper">
+                        
+	<nav class="navigation post-navigation" aria-label="Posts">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://www.both.org/?p=6806" rel="prev"><span class="arrow" aria-hidden="true"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path></svg></span><span class="screen-reader-text">Previous post:</span><span class="post-title">Gaming drives computing</span></a></div><div class="nav-next"><a href="https://www.both.org/?p=6843" rel="next"><span class="arrow" aria-hidden="true"><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path></svg></span><span class="screen-reader-text">Next post:</span><span class="post-title">The Linux Philosophy for SysAdmins, Tenet 03 — Everything is a File</span></a></div></div>
+	</nav>                    </div>
+                    
+                    </main><!-- #main -->
+                </div>
+
+                
+<aside id="secondary" class="widget-area">
+	<div id="quotescollection-6" class="widget widget_quotescollection"><h3 class="widget-title"><span>Random Quote</span></h3>
+<div class="quotescollection-quote-wrapper" id="w_quotescollection_6"><p>Any given program costs more and takes longer.</p>
+<div class="attribution">&mdash;&nbsp;<cite class="author">Laws of Computer Programming</cite></div><script type="text/javascript">
+var args_w_quotescollection_6 = {"instanceID":"w_quotescollection_6", "currQuoteID":35, "showAuthor":1, "showSource":1, "tags":"", "charLimit":500, "orderBy":"random", "ajaxRefresh":1, "autoRefresh":0, "dynamicFetch":0, "before":"", "after":"", "beforeAttribution":"&lt;div class=\&quot;attribution\&quot;&gt;&amp;mdash;&amp;nbsp;", "afterAttribution":"&lt;/div&gt;", };
+<!--
+document.write("<div class=\"navigation\"><div class=\"nav-next\"><a class=\"next-quote-link\" style=\"cursor:pointer;\" onclick=\"quotescollectionRefresh(args_w_quotescollection_6)\">Next quote »</a></div></div>")
+//-->
+</script>
+</div></div><div id="text-6" class="widget widget_text"><h3 class="widget-title"><span>Subscribe to Both.org</span></h3>			<div class="textwidget"><p>To comment on articles, you must register.</p>
+<p>Send your desired user ID, first and last name, and an email address for login (this must be the same email address used to register) to<a href="mailto:subscribe@both.org" target="_blank" rel="noopener"> subscribe@both.org</a> with “Subscribe” as the subject line.</p>
+<p>You&#8217;ll receive a confirmation of your subscription with your initial password as soon as we are able to process it.</p>
+</div>
+		</div><div id="text-2" class="widget widget_text"><h3 class="widget-title"><span>2nd Edition now Available</span></h3>			<div class="textwidget"><p><a href="http://www.both.org/?page_id=2208"><img loading="lazy" decoding="async" class="alignnone wp-image-2353 size-full" src="http://www.both.org/wp-content/uploads/2023/09/All3-2ndEditionCoversForWebSite.png" alt="" width="1443" height="714" /></a></p>
+<p>All three volumes of this best-selling second edition of my Linux Self-Study course are now available from Apress and Amazon. See the <a href="http://www.both.org/?page_id=2208" target="_blank" rel="noopener">details of this 3-volume self-study course</a>.</p>
+</div>
+		</div><div id="text-7" class="widget widget_text"><h3 class="widget-title"><span>Technically We Write &#8212; Our Partner Site</span></h3>			<div class="textwidget"><p>Our partner site, <a href="https://technicallywewrite.com/" target="_blank" rel="noopener">Technically We Write</a>, has published a number of articles from several contributors to Both.org. Check them out.</p>
+<p><strong>Technically We Write</strong> is a community of technical writers, technical editors, copyeditors, web content writers, and all other roles in technical communication.</p>
+</div>
+		</div></aside><!-- #secondary -->
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+        <div class="header-searchbar">
+            <div class="header-searchbar-inner">
+                <div class="wrapper">
+                    <div class="header-searchbar-panel">
+
+                        <div class="header-searchbar-area">
+                            <a class="skip-link-search-top" href="javascript:void(0)"></a>
+                            <form role="search" method="get" class="search-form" action="https://www.both.org/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>                        </div>
+
+                        <button type="button" id="search-closer" class="close-popup">
+                            <svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><polygon fill="currentColor" fill-rule="evenodd" points="6.852 7.649 .399 1.195 1.445 .149 7.899 6.602 14.352 .149 15.399 1.195 8.945 7.649 15.399 14.102 14.352 15.149 7.899 8.695 1.445 15.149 .399 14.102" /></svg>                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+        <div id="offcanvas-menu">
+            <div class="offcanvas-wraper">
+
+                <div class="close-offcanvas-menu">
+
+                    <a class="skip-link-off-canvas" href="javascript:void(0)"></a>
+
+                    <div class="offcanvas-close">
+
+                        <button type="button" class="button-offcanvas-close">
+
+                            <span class="offcanvas-close-label">
+                                Close                            </span>
+
+                            <span class="bars">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </span>
+
+                        </button>
+
+                    </div>
+                </div>
+
+                <div id="primary-nav-offcanvas" class="offcanvas-item offcanvas-main-navigation">
+                    <nav class="primary-menu-wrapper">
+                        <ul class="primary-menu theme-menu">
+
+                            <li class="page_item page-item-3010"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=3010">About Us</a></div></li>
+<li class="page_item page-item-63 page_item_has_children"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=63">Linux</a><button type="button" class="theme-aria-button submenu-toggle" data-toggle-target=".page_item.page-item-63 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250"><span class="btn__content" tabindex="-1"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg></span></button></div><ul class='sub-menu'>
+	<li class="page_item page-item-6"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=6">Why I use Linux</a></div></li>
+	<li class="page_item page-item-844"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=844">The real reason we use Linux</a></div></li>
+</ul>
+</li>
+<li class="page_item page-item-907 page_item_has_children"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=907">My Linux Books</a><button type="button" class="theme-aria-button submenu-toggle" data-toggle-target=".page_item.page-item-907 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250"><span class="btn__content" tabindex="-1"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg></span></button></div><ul class='sub-menu'>
+	<li class="page_item page-item-2208"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=2208">Using and Administering Linux – Zero to SysAdmin: 2nd Edition</a></div></li>
+	<li class="page_item page-item-903"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=903">The Linux Philosophy for SysAdmins</a></div></li>
+	<li class="page_item page-item-2024"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=2024">Linux for Small Business Owners</a></div></li>
+	<li class="page_item page-item-1452 page_item_has_children"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=1452">Errata</a><button type="button" class="theme-aria-button submenu-toggle" data-toggle-target=".page_item.page-item-1452 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250"><span class="btn__content" tabindex="-1"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg></span></button></div>	<ul class='sub-menu'>
+		<li class="page_item page-item-9936"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=9936">Errata for The Linux Philosophy for SysAdmins</a></div></li>
+		<li class="page_item page-item-9938"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=9938">Errata for Using and Administering Linux &#8212; 1st Edition</a></div></li>
+		<li class="page_item page-item-8849"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=8849">Errata for Using and Administering Linux &#8212; 2nd Edition</a></div></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="page_item page-item-4674 page_item_has_children"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=4674">Open Source Resources</a><button type="button" class="theme-aria-button submenu-toggle" data-toggle-target=".page_item.page-item-4674 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250"><span class="btn__content" tabindex="-1"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg></span></button></div><ul class='sub-menu'>
+	<li class="page_item page-item-3085"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=3085">What is Open Source?</a></div></li>
+	<li class="page_item page-item-4679"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=4679">What is Linux?</a></div></li>
+	<li class="page_item page-item-56"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=56">What is Open Source Software?</a></div></li>
+	<li class="page_item page-item-5237"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=5237">The Open Source Way</a></div></li>
+</ul>
+</li>
+<li class="page_item page-item-3286 page_item_has_children"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=3286">Write for us</a><button type="button" class="theme-aria-button submenu-toggle" data-toggle-target=".page_item.page-item-3286 > .sub-menu" data-toggle-type="slidetoggle" data-toggle-duration="250"><span class="btn__content" tabindex="-1"><span class="screen-reader-text">Show sub menu</span><svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg></span></button></div><ul class='sub-menu'>
+	<li class="page_item page-item-3015"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=3015">Submission and Style guide</a></div></li>
+	<li class="page_item page-item-5389"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=5389">Advertising statement</a></div></li>
+</ul>
+</li>
+<li class="page_item page-item-4666"><div class="submenu-wrapper"><a href="https://www.both.org/?page_id=4666">Downloads</a></div></li>
+
+                        </ul>
+                    </nav>
+                </div>
+
+                
+                <a class="skip-link-offcanvas screen-reader-text" href="javascript:void(0)"></a>
+                
+            </div>
+        </div>
+
+    
+<footer id="site-footer" role="contentinfo">
+    
+            <div class="footer-widgetarea">
+                <div class="wrapper">
+                    <div class="column-row">
+                                                    <div class="column column-4 column-sm-12">
+                                <div id="meta-2" class="widget widget_meta"><h3 class="widget-title"><span>Administration</span></h3>
+		<ul>
+						<li><a href="https://www.both.org/wp-login.php">Log in</a></li>
+			<li><a href="https://www.both.org/?feed=rss2">Entries feed</a></li>
+			<li><a href="https://www.both.org/?feed=comments-rss2">Comments feed</a></li>
+
+			<li><a href="https://wordpress.org/">WordPress.org</a></li>
+		</ul>
+
+		</div>                            </div>
+                        
+                                                    <div class="column column-4 column-sm-12">
+                                <div id="text-5" class="widget widget_text">			<div class="textwidget"><p>Both.org aims to publish everything under a <a href="https://creativecommons.org/">Creative Commons</a> Attribution ShareAlike license. Some items may be published under a different license. You are responsible to verify permissions before reusing content from this website. The opinions expressed are those of the individual authors, not Both.org.</p>
+</div>
+		</div>                            </div>
+                        
+                                                    <div class="column column-4 column-sm-12">
+                                <div id="text-10" class="widget widget_text">			<div class="textwidget"><p><a href="https://www.both.org/?page_id=5389">Advertising Statement</a></p>
+</div>
+		</div>                            </div>
+                                            </div>
+                </div>
+            </div>
+                <div class="site-info">
+            <div class="wrapper">
+                <div class="column-row">
+                    <div class="column column-10">
+                        <div class="footer-copyright">
+
+	                        <p></p>
+
+
+<!--                            -->                        </div>
+                    </div>
+
+                    
+            <div class="column column-2 hide-no-js">
+                <a class="to-the-top" href="#site-header">
+                    <span class="to-the-top-long">
+                        To the Top <span class="arrow" aria-hidden="true">&uarr;</span>                    </span>
+                    <span class="to-the-top-short">
+                        Up <span class="arrow" aria-hidden="true">&uarr;</span>                    </span>
+                </a>
+            </div>
+
+            
+                </div>
+            </div>
+        </div>
+
+    
+</footer>
+</div>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=1158761637505872';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<script src="https://www.both.org/wp-content/plugins/simple-social-buttons/assets/js/frontend-blocks.js?ver=6.0.0" id="ssb-blocks-front-js-js"></script>
+<script id="ssb-front-js-js-extra">
+var SSB = {"ajax_url":"https:\/\/www.both.org\/wp-admin\/admin-ajax.php","fb_share_nonce":"498515b070"};
+</script>
+<script src="https://www.both.org/wp-content/plugins/simple-social-buttons/assets/js/front.js?ver=6.0.0" id="ssb-front-js-js"></script>
+<script src="https://www.both.org/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script src="https://www.both.org/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
+<script src="https://www.both.org/wp-content/themes/primebulletin/assets/lib/magnific-popup/jquery.magnific-popup.min.js?ver=6.7.2" id="magnific-popup-js"></script>
+<script src="https://www.both.org/wp-content/themes/primebulletin/assets/lib/slick/js/slick.min.js?ver=6.7.2" id="slick-js"></script>
+<script src="https://www.both.org/wp-content/themes/primebulletin/assets/lib/theiaStickySidebar/theia-sticky-sidebar.js?ver=6.7.2" id="theiaStickySidebar-js"></script>
+<script id="primebulletin-ajax-js-extra">
+var primebulletin_ajax = {"ajax_url":"https:\/\/www.both.org\/wp-admin\/admin-ajax.php","ajax_nonce":"58f63ba5f7"};
+</script>
+<script src="https://www.both.org/wp-content/themes/primebulletin/assets/lib/custom/js/ajax.js?ver=6.7.2" id="primebulletin-ajax-js"></script>
+<script id="primebulletin-custom-js-extra">
+var primebulletin_custom = {"single_post":"1","primebulletin_ed_post_reaction":"","next_svg":"<svg class=\"svg-icon\" aria-hidden=\"true\" role=\"img\" focusable=\"false\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z\"><\/path><\/svg>","prev_svg":"<svg class=\"svg-icon\" aria-hidden=\"true\" role=\"img\" focusable=\"false\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z\" \/><\/path><\/svg>","play":"<svg class=\"svg-icon\" aria-hidden=\"true\" role=\"img\" focusable=\"false\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 22 28\"><path fill=\"currentColor\" d=\"M21.625 14.484l-20.75 11.531c-0.484 0.266-0.875 0.031-0.875-0.516v-23c0-0.547 0.391-0.781 0.875-0.516l20.75 11.531c0.484 0.266 0.484 0.703 0 0.969z\" \/><\/svg>","pause":"<svg class=\"svg-icon\" aria-hidden=\"true\" role=\"img\" focusable=\"false\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 24 28\"><path fill=\"currentColor\" d=\"M24 3v22c0 0.547-0.453 1-1 1h-8c-0.547 0-1-0.453-1-1v-22c0-0.547 0.453-1 1-1h8c0.547 0 1 0.453 1 1zM10 3v22c0 0.547-0.453 1-1 1h-8c-0.547 0-1-0.453-1-1v-22c0-0.547 0.453-1 1-1h8c0.547 0 1 0.453 1 1z\" \/><\/svg>","mute":"<svg class=\"svg-icon\" aria-hidden=\"true\" role=\"img\" focusable=\"false\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 448.075 448.075\"><path fill=\"currentColor\" d=\"M352.021,16.075c0-6.08-3.52-11.84-8.96-14.4c-5.76-2.88-12.16-1.92-16.96,1.92l-141.76,112.96l167.68,167.68V16.075z\" \/><path fill=\"currentColor\" d=\"M443.349,420.747l-416-416c-6.24-6.24-16.384-6.24-22.624,0s-6.24,16.384,0,22.624l100.672,100.704h-9.376 c-9.92,0-18.56,4.48-24.32,11.52c-4.8,5.44-7.68,12.8-7.68,20.48v128c0,17.6,14.4,32,32,32h74.24l155.84,124.48 c2.88,2.24,6.4,3.52,9.92,3.52c2.24,0,4.8-0.64,7.04-1.6c5.44-2.56,8.96-8.32,8.96-14.4v-57.376l68.672,68.672 c3.136,3.136,7.232,4.704,11.328,4.704s8.192-1.568,11.328-4.672C449.589,437.131,449.589,427.019,443.349,420.747z\" \/><\/svg>","unmute":"<svg class=\"svg-icon\" aria-hidden=\"true\" role=\"img\" focusable=\"false\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"22\" height=\"22\" viewBox=\"0 0 480 480\"><path fill=\"currentColor\" d=\"M278.944,17.577c-5.568-2.656-12.128-1.952-16.928,1.92L106.368,144.009H32c-17.632,0-32,14.368-32,32v128 c0,17.664,14.368,32,32,32h74.368l155.616,124.512c2.912,2.304,6.464,3.488,10.016,3.488c2.368,0,4.736-0.544,6.944-1.6 c5.536-2.656,9.056-8.256,9.056-14.4v-416C288,25.865,284.48,20.265,278.944,17.577z\" \/><path fill=\"currentColor\" d=\"M368.992,126.857c-6.304-6.208-16.416-6.112-22.624,0.128c-6.208,6.304-6.144,16.416,0.128,22.656 C370.688,173.513,384,205.609,384,240.009s-13.312,66.496-37.504,90.368c-6.272,6.176-6.336,16.32-0.128,22.624 c3.136,3.168,7.264,4.736,11.36,4.736c4.064,0,8.128-1.536,11.264-4.64C399.328,323.241,416,283.049,416,240.009 S399.328,156.777,368.992,126.857z\" \/><path fill=\"currentColor\" d=\"M414.144,81.769c-6.304-6.24-16.416-6.176-22.656,0.096c-6.208,6.272-6.144,16.416,0.096,22.624 C427.968,140.553,448,188.681,448,240.009s-20.032,99.424-56.416,135.488c-6.24,6.24-6.304,16.384-0.096,22.656 c3.168,3.136,7.264,4.704,11.36,4.704c4.064,0,8.16-1.536,11.296-4.64C456.64,356.137,480,299.945,480,240.009 S456.64,123.881,414.144,81.769z\" \/><\/svg>","play_text":"Play","pause_text":"Pause","mute_text":"Mute","unmute_text":"Unmute","wide_layout":"0"};
+</script>
+<script src="https://www.both.org/wp-content/themes/primebulletin/assets/lib/custom/js/custom.js?ver=6.7.2" id="primebulletin-custom-js"></script>
+<script id="primebulletin-pagination-js-extra">
+var primebulletin_pagination = {"paged":"1","maxpage":"0","nextLink":null,"ajax_url":"https:\/\/www.both.org\/wp-admin\/admin-ajax.php","loadmore":"Load More Posts","nomore":"No More Posts","loading":"Loading...","pagination_layout":"numeric","permalink_structure":"","ajax_nonce":"58f63ba5f7"};
+</script>
+<script src="https://www.both.org/wp-content/themes/primebulletin/assets/lib/custom/js/pagination.js?ver=6.7.2" id="primebulletin-pagination-js"></script>
+</body>
+</html>
+�}ܻK�      g��g��H	�+g��   C    O^partitionKey=%28https%2Cboth.org%29,:https://www.both.org/?p=6672 strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAAAAgAAAAAAAAAAAAAAAAAAAAEAOQFmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAOCMIIDfjCCAwSgAwIBAgISBDOO8PQJKU+xwcAyceLRq3xoMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFNjAeFw0yNTAyMjIwNzIyMjdaFw0yNTA1MjMwNzIyMjZaMBMxETAPBgNVBAMTCGJvdGgub3JnMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEclGmB7V0meFcTmRQCJcZSDSw6Y636csAexzT5QGPfUFAttv/0ufaOK44+W6E0vnwuBvqoNt6EPlRkfpXbIA3rqOCAhcwggITMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUHMg8lCQrHhfZouQrzkVpCp+nfgwwHwYDVR0jBBgwFoAUkydGmAOpUWiOmNbEQkjbI79YlNIwVQYIKwYBBQUHAQEESTBHMCEGCCsGAQUFBzABhhVodHRwOi8vZTYuby5sZW5jci5vcmcwIgYIKwYBBQUHMAKGFmh0dHA6Ly9lNi5pLmxlbmNyLm9yZy8wIQYDVR0RBBowGIIIYm90aC5vcmeCDHd3dy5ib3RoLm9yZzATBgNVHSAEDDAKMAgGBmeBDAECATCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB2AMz7D2qFcQll/pWbU87psnwi6YVcDZeNtql+VMD+TA2wAAABlSy+z4AAAAQDAEcwRQIgDmoXkxshLVvMlONTPzmfGINnhhb4mjO2AVbbvt+YjfQCIQCtboKHzABadm0FKWkA42A+yyInDjIR3Hqmbki/lzUdKwB1AM8RVu7VLnyv84db2Wkum+kacWdKsBfsrAHSW3fOzDsIAAABlSy+z6gAAAQDAEYwRAIgQW7aNREu/JwusKDrW2cFePxW5f69AS70cp75nvsE+BYCIF81lztarDfixWzYYG6+YoYWwOU5SVeZusDut7FJ3Gp5MAoGCCqGSM49BAMDA2gAMGUCMDR7YdAYbmLhhA8NnQ/l4Kt3E6A8ZS5xdhxRBv7/+qIyvVwDoZKwsOYspDp8Rggc9QIxANqOsqw6/8S//QhrZoqf4TXmfIQtpSsxNorRrzmrqYdWKiUDEsymfGdeN5tJk4fsOhMBAAQAAAAAAAEBAAAFAAAABngyNTUxOQAAABFFQ0RTQS1QMjU2LVNIQTI1NgADZgoyJpFcT/u7IImFpjLfBb3Dl5pUIkzVhYlpa26W6oMAAAAAAAADgjCCA34wggMEoAMCAQICEgQzjvD0CSlPscHAMnHi0at8aDAKBggqhkjOPQQDAzAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDELMAkGA1UEAxMCRTYwHhcNMjUwMjIyMDcyMjI3WhcNMjUwNTIzMDcyMjI2WjATMREwDwYDVQQDEwhib3RoLm9yZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABHJRpge1dJnhXE5kUAiXGUg0sOmOt+nLAHsc0+UBj31BQLbb/9Ln2jiuOPluhNL58Lgb6qDbehD5UZH6V2yAN66jggIXMIICEzAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFBzIPJQkKx4X2aLkK85FaQqfp34MMB8GA1UdIwQYMBaAFJMnRpgDqVFojpjWxEJI2yO/WJTSMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL2U2Lm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vZTYuaS5sZW5jci5vcmcvMCEGA1UdEQQaMBiCCGJvdGgub3Jnggx3d3cuYm90aC5vcmcwEwYDVR0gBAwwCjAIBgZngQwBAgEwggEDBgorBgEEAdZ5AgQCBIH0BIHxAO8AdgDM+w9qhXEJZf6Vm1PO6bJ8IumFXA2XjbapflTA/kwNsAAAAZUsvs+AAAAEAwBHMEUCIA5qF5MbIS1bzJTjUz85nxiDZ4YW+JoztgFW277fmI30AiEArW6Ch8wAWnZtBSlpAONgPssiJw4yEdx6pm5Iv5c1HSsAdQDPEVbu1S58r/OHW9lpLpvpGnFnSrAX7KwB0lt3zsw7CAAAAZUsvs+oAAAEAwBGMEQCIEFu2jURLvycLrCg61tnBXj8VuX+vQEu9HKe+Z77BPgWAiBfNZc7Wqw34sVs2GBuvmKGFsDlOUlXmbrA7rexSdxqeTAKBggqhkjOPQQDAwNoADBlAjA0e2HQGG5i4YQPDZ0P5eCrdxOgPGUucXYcUQb+//qiMr1cA6GSsLDmLKQ6fEYIHPUCMQDajrKsOv/Ev/0Ia2aKn+E15nyELaUrMTaK0a85q6mHViolAxLMpnxnXjebSZOH7DpmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAARbMIIEVzCCAj+gAwIBAgIRALBXPpFzlydw27SHyzpFKzgwDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjQwMzEzMDAwMDAwWhcNMjcwMzEyMjM1OTU5WjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDELMAkGA1UEAxMCRTYwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAATZ8Z5Gh/ghcWCoJuuj+rnq2h25EqfUJtlRFLFhfHWWvyILOR/VvtEKRqotPEoJhC6+QJVV6RlAN2Z17TJOdwRJ+HB7wxjnzvdxEP6sdNgA1O1tHHMWMxCcOrLqbGL0vbijgfgwgfUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBSTJ0aYA6lRaI6Y1sRCSNsjv1iU0jAfBgNVHSMEGDAWgBR5tFnme7bl5AFzgAiIyBpY9umbbjAyBggrBgEFBQcBAQQmMCQwIgYIKwYBBQUHMAKGFmh0dHA6Ly94MS5pLmxlbmNyLm9yZy8wEwYDVR0gBAwwCjAIBgZngQwBAgEwJwYDVR0fBCAwHjAcoBqgGIYWaHR0cDovL3gxLmMubGVuY3Iub3JnLzANBgkqhkiG9w0BAQsFAAOCAgEAfYt7SiA1sgWGCIpunk46r4AExIRcMxkKgUhNlrrv1B21hOaXN/5miE+LOTbrcmU/M9yvC6MVY730GNFoL8IhJ8j8vrOLpMY22OP6baS1k9YMrtDTlwJHoGby04ThTUeBDksS9RiuHvicZqBedQdIF65pZuhpeDcGBcLiYasQr/EO5gxxtLyTmgsHSOVSBcFOn9lgv7LECPq9i7mfH3mpxgrRKSxHpOoZ0KXMcB+hHuvlklHntvcI0mMMQ0mhYj6qtMFStkF1RpCG3IPdIwpVCQqu8GV7s8ubknRzs+3C/Bm19RFOoiPpDkwvyNfvmQ14XkyqqKK5oZ8zhD32kFRQkxa8uZSuh4aTImFxknu39waBxIRXE4jKxlAmQc4QjFZoq1KmQqQg0J/1JF8RlFvJas1VcjLvYlvUB2t6npO6oQjB3l+PNf0DpQH7iUx3Wz5AjQCi6L25FjyE06q6BZ/QlmtYdl/8ZYao4SRqPEs/6cAiF+Qf5zg2UkaWtDphl1LKMuTNLotvsX99HP69V2faNyegodQ0LyTApr/vT01YPE46vNsDLgK+4cL6TrzC/a4WcmF5SRJ938zrv/duJHLXQIku5v0+EwOy59Hdm0PT/Er/84dDV0CSjdR/2XuZM3kpysSKLgD1cKiDA+IRguODCxfO9cyYIg46v9mFmBvyH05mCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAVvMIIFazCCA1OgAwIBAgIRAIIQz7DSQONZRGPgu2OCiwAwDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMTUwNjA0MTEwNDM4WhcNMzUwNjA0MTEwNDM4WjBPMQswCQYDVQQGEwJVUzEpMCcGA1UEChMgSW50ZXJuZXQgU2VjdXJpdHkgUmVzZWFyY2ggR3JvdXAxFTATBgNVBAMTDElTUkcgUm9vdCBYMTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAK3oJHP0FDfzm54rVygch77ct984kIxuPOZXoHj3dcKi/vVqbvYATyjb3miGbESTtrFj/RQSa78f0uoxmyF+0TM8ukj13Xnfs7j/EvEhmkvBioZxaUpmZmyPfjxwv60pIgbz5MDmgK7iS4+3mX6UA5/TR5d8mUgjU+g4rk8Kb4Mu0UlXjIB0ttov0DiNewNwIRt18jA8+o+u3dpjq+sWT8KOEUt+zwvo/7V3LvSye0rgTBIlDHCNAymg4VMk7BPZ7hm/ELNKjD+Jo2FR3qyHB5T0Y3HsLuJvW5iB4YlcNHlsdu87kGJ55tukmi8mxdAQ4Q7e2RCOFvu396j3x+UCB5iPNgiV5+I3lg02dZ77DnKxHZu8A/lJBdiB3QW0KtZB6awBdpUKD9jf1b0SHzUvKBds0pjBqAlkd25HN7rOrFleaJ1/ctaJxQZBKT5ZPt0m9STJEadao0xAH0ahmbWnOlFuhjuefXKnEgV4We0+UXgVCwOPjdAvBbI+e0ocS3MFEvzG6uBQE3xDk3SzynTnjh8BCNAw1FtxNrQHusEwMFxIt4I7mKZ9YIqioymCzLq9gwQbooMDQaHWBfEbwrbwqHyGO0aoSCqI3Haadr8faqU9GY/rOPNk3sgrDQoo//fb4hVC1CLQJ13hef4Y53CIrU7m2Ys6xt0nUW7/vGT1M0NPAgMBAAGjQjBAMA4GA1UdDwEB/wQEAwIBBjAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBR5tFnme7bl5AFzgAiIyBpY9umbbjANBgkqhkiG9w0BAQsFAAOCAgEAVR9YqbyyqFDQDLHYGmkgJykIrGF1XIpu+ILlaS/V9lZLubhzEFnTIZd+50xx+7LSYK05qAvqFyFWhfFQDlnrzuBZ6brJFe+GnY+EgPbk6ZGQ3BebYhtF8GaV0nxvwuo77x/Py9auJ/GpsMiu/X1+mvoiBOv/2X/qkSsisRcOj/KKNFtY2PwByVS5uCbMiogziUwthDyC3+6WVwW6LLv3xLfHTjuCvjHIInNzktHCgKQ5ORAzI4JMPJ+GslWYHb4phowim57iaztXOoJwTdwJx4nLCgdNbOhdjsnvzqvHu7UrTkXWStAmzOVyyghqpZXjFaH3pO3JLF+l+/+sKAIuvtd7u+Nxe5AW0wdeRlN8NwdCjNPElpzVmbUq4JUagEiuTDkHzsxHpFKVK7q4+63SM1N95R1NbdWhscdCb+ZAJzVcoyi3B43njTOQ5yOf+1CceWxG1bQVs5ZufpsMljq4Ui0/1lvh+wjChP4kqKOJ2qxq4RgqsahDYVvTH9w7jXbyLeiNdd8XM2w9U/t7y0Ff/9yi0GE44Za4rF2LN9d11TPAmRGunUHBcnWEvgJBQl9nJEiU0Zsnvgc/ubhPgXRR4Xq37Z0j4r7g1SgEEzwxA57demyPxgcYxn/eR44/KJ4EBs+lVDR3veyJm+kXQ99b21/+jh5Xos1AnX5iItreGCcAAAABAAAACGh0dHAvMS4xAAEAAAAAR3Rsc2ZsYWdzMHgwMDAwMDAwMDp3d3cuYm90aC5vcmc6NDQzXnBhcnRpdGlvbktleT0lMjhodHRwcyUyQ2JvdGgub3JnJTI5AQA= request-method GET response-head HTTP/1.1 200 OK
+Date: Thu, 03 Apr 2025 03:42:03 GMT
+Server: Apache/2.4.63 (Fedora Linux) OpenSSL/3.2.4
+X-Powered-By: PHP/8.3.19
+Link: <https://www.both.org/index.php?rest_route=/>; rel="https://api.w.org/", <https://www.both.org/index.php?rest_route=/wp/v2/posts/6672>; rel="alternate"; title="JSON"; type="application/json", <https://www.both.org/?p=6672>; rel=shortlink
+Content-Type: text/html; charset=UTF-8
+Content-Security-Policy: object-src blob: filesystem: *; frame-src blob: filesystem: *
+ original-response-headers Date: Thu, 03 Apr 2025 03:42:03 GMT
+Server: Apache/2.4.63 (Fedora Linux) OpenSSL/3.2.4
+X-Powered-By: PHP/8.3.19
+Link: <https://www.both.org/index.php?rest_route=/>; rel="https://api.w.org/", <https://www.both.org/index.php?rest_route=/wp/v2/posts/6672>; rel="alternate"; title="JSON"; type="application/json", <https://www.both.org/?p=6672>; rel=shortlink
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+ ctid 1 uncompressed-len 0 net-response-time-onstart 1198 net-response-time-onstop 1446  Z�

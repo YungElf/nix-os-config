@@ -59,3 +59,15 @@ true
 0
 true
 #
+
+https://www.reddit.com/
+https://www.reddit.com/sw.js
+true
+{3676226b-dae6-40b6-a4ec-f9e5273429e1}
+1
+1743651712621271
+1743651712678148
+1743651712602909
+0
+true
+#

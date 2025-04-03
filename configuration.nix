@@ -26,10 +26,6 @@ let
 
 terminalStuff = with pkgs; [
   tmux
-    (pkgs.writeShellScriptBin "kitty" ''
-  exec ${pkgs.kitty}/bin/kitty --config /etc/nixos/assets/kitty/kitty.conf tmux
-'')
-
 ];
 
   basicStuff = with pkgs; [
