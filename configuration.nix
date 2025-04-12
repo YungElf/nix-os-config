@@ -36,6 +36,7 @@ terminalStuff = with pkgs; [
   gamingStuff = with pkgs; [
     steam
     discord-ptb
+    mumble
   ];
 
   customScripts = with pkgs; [
