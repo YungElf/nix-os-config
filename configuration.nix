@@ -17,6 +17,7 @@ let
     git
     neovim
     code-cursor
+    wineWowPackages.stable
   ];
 
   java = with pkgs; [
