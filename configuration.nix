@@ -38,6 +38,7 @@ terminalStuff = with pkgs; [
     steam
     discord-ptb
     mumble
+    obs-studio
   ];
 
   customScripts = with pkgs; [
