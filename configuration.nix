@@ -23,7 +23,7 @@ let
 
   virtualisation.virtualbox.host.enable = true;
   virtualisation.virtualbox.host.enableExtensionPack = true;
-
+  boot.kernelModules = [ "vboxdrv" "vboxnetflt" "vboxnetadp" ];
   users.extraGroups.vboxusers.members = [ "elf" ];
 
   java = with pkgs; [

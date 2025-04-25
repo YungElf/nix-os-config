@@ -1,0 +1,8 @@
+# Exclude browser junk
+assets/firefox-hardmode/
+*.sqlite
+*.bin
+*.so
+*.cache
+.cache/
+*.log
