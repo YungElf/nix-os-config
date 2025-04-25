@@ -38,6 +38,7 @@ terminalStuff = with pkgs; [
   basicStuff = with pkgs; [
     xclip
     jetbrains-mono
+    vlc
   ];
 
   gamingStuff = with pkgs; [
