@@ -43,7 +43,7 @@ terminalStuff = with pkgs; [
 
   gamingStuff = with pkgs; [
     steam
-    discord-ptb
+    discord
     mumble
     obs-studio
   ];
