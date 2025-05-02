@@ -46,6 +46,7 @@ terminalStuff = with pkgs; [
     discord
     mumble
     obs-studio
+    factorio-headless
   ];
 
   customScripts = with pkgs; [
