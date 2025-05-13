@@ -28,6 +28,7 @@ let
 
   java = with pkgs; [
     openjdk17
+    openjdk11
     jdt-language-server
   ];
 
