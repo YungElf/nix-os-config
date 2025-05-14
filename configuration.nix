@@ -163,7 +163,7 @@ in
 
   # Install all required packages
   environment.systemPackages =
-    devStuff ++ java ++ terminalStuff ++ basicStuff ++ gamingStuff ++ customScripts;
+    devStuff ++ java ++ terminalStuff ++ basicStuff ++ gamingStuff ++ customScripts ++ [ pkgs.nix-ld ];
 
     environment.etc."tmux.conf".source = /etc/nixos/assets/tmux.conf;
 
