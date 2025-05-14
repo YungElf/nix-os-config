@@ -158,6 +158,8 @@ in
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
+  programs.nix-ld.enable = true;
+
 
   # Install all required packages
   environment.systemPackages =
