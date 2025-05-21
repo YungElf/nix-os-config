@@ -18,13 +18,7 @@ let
     neovim
     code-cursor
     wineWowPackages.stable
-    virtualbox
   ];
-
-  virtualisation.virtualbox.host.enable = true;
-  virtualisation.virtualbox.host.enableExtensionPack = true;
-  boot.kernelModules = [ "vboxdrv" "vboxnetflt" "vboxnetadp" ];
-  users.extraGroups.vboxusers.members = [ "elf" ];
 
   java = with pkgs; [
     openjdk17
@@ -65,6 +59,11 @@ in
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
     ];
+  
+
+  #virt-manager
+  virtualisation.libvirtd.enable = true;
+  programs.virt-manager.enable = true;
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
@@ -143,11 +142,12 @@ in
   users.users.elf = {
     isNormalUser = true;
     description = "elf";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
     packages = with pkgs; [
       kdePackages.kate
     ];
   };
+
 
   # Enable automatic login for the user.
   services.xserver.displayManager.autoLogin.enable = true;
