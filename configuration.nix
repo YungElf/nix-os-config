@@ -39,6 +39,7 @@ terminalStuff = with pkgs; [
 
   gamingStuff = with pkgs; [
     steam
+    lutris
     discord
     mumble
     obs-studio
