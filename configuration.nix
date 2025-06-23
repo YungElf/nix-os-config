@@ -44,6 +44,7 @@ terminalStuff = with pkgs; [
     mumble
     obs-studio
     factorio-headless
+    path-of-building
   ];
 
   customScripts = with pkgs; [
