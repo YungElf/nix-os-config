@@ -35,6 +35,7 @@ terminalStuff = with pkgs; [
     jetbrains-mono
     vlc
     google-chrome
+    qbittorrent-enhanced
   ];
 
   gamingStuff = with pkgs; [
