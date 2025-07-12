@@ -18,6 +18,8 @@ let
     neovim
     code-cursor
     wineWowPackages.stable
+    direnv
+    nix-direnv
   ];
 
   java = with pkgs; [
