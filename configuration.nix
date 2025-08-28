@@ -43,7 +43,7 @@ terminalStuff = with pkgs; [
   gamingStuff = with pkgs; [
     steam
     lutris
-    discord
+    discord-ptb
     mumble
     obs-studio
     factorio-headless
