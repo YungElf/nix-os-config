@@ -20,6 +20,7 @@ let
     wineWowPackages.stable
     direnv
     nix-direnv
+    python3
   ];
 
   java = with pkgs; [
