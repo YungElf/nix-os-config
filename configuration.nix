@@ -47,8 +47,8 @@ terminalStuff = with pkgs; [
     discord-ptb
     mumble
     obs-studio
-    factorio-headless
     path-of-building
+    prismlauncher
   ];
 
   customScripts = with pkgs; [
