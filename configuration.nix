@@ -16,11 +16,13 @@ let
     curl
     git
     neovim
-    code-cursor
+    code-cursor-fhs
+    jetbrains.idea-ultimate
     wineWowPackages.stable
     direnv
     nix-direnv
     python3
+    teams-for-linux
   ];
 
   java = with pkgs; [
