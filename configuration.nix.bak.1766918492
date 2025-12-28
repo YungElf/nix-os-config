@@ -1,3 +1,7 @@
+Edit this configuration file to define what should be installed on
+# your system.  Help is available in the configuration.nix(5) man page
+# and in the NixOS manual (accessible by running ‘nixos-help’).
+
 { config, pkgs, ... }:
 
 let
@@ -27,9 +31,9 @@ let
     jdt-language-server
   ];
 
-  terminalStuff = with pkgs; [
+terminalStuff = with pkgs; [
     # tmux
-  ];
+];
 
   basicStuff = with pkgs; [
     xclip
@@ -50,10 +54,8 @@ let
   ];
 
   customScripts = with pkgs; [
-    (writeShellScriptBin "nixsave"
-      (builtins.readFile /etc/nixos/scripts/nixsave)
-    )
-    (writeShellScriptBin "firefox" ''
+    (pkgs.writeShellScriptBin "nixsave" (builtins.readFile /etc/nixos/scripts/nixsave))
+   (pkgs.writeShellScriptBin "firefox" ''
       exec ${pkgs.firefox}/bin/firefox \
         --no-remote \
         --profile /etc/nixos/assets/firefox-hardmode
@@ -61,24 +63,32 @@ let
   ];
 in
 {
-  imports = [
-    ./hardware-configuration.nix
-  ];
+  imports =
+    [ # Include the results of the hardware scan.
+      ./hardware-configuration.nix
+    ];
+  
 
-  ## Bootloader
+  #virt-manager
+  virtualisation.libvirtd.enable = true;
+  programs.virt-manager.enable = true;
+
+  # Bootloader.
   boot.loader.systemd-boot.enable = true;
-  boot.loader.systemd-boot.configurationLimit = 10;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  ## Networking
-  networking.hostName = "nixos";
-  networking.networkmanager.enable = true;
-  networking.firewall.enable = true;
+  networking.hostName = "nixos"; # Define your hostname.
+  # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
-  ## Time / Locale
+  # Enable networking
+  networking.networkmanager.enable = true;
+
+  # Set your time zone.
   time.timeZone = "America/Phoenix";
 
+  # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
+
   i18n.extraLocaleSettings = {
     LC_ADDRESS = "en_US.UTF-8";
     LC_IDENTIFICATION = "en_US.UTF-8";
@@ -91,48 +101,44 @@ in
     LC_TIME = "en_US.UTF-8";
   };
 
-  ## Graphics (renamed from hardware.opengl)
-  hardware.graphics.enable = true;
-  hardware.graphics.enable32Bit = true;
 
-  ## Filesystems
+  hardware.opengl = {
+    enable = true;
+    driSupport32Bit = true;
+  };
+
+     # Mount 2TB ext4 drive labeled 'Ultra' at /mnt/games
   fileSystems."/mnt/Ultra" = {
     device = "/dev/disk/by-label/Ultra";
     fsType = "ext4";
   };
 
+  # Mount 500GB ext4 drive labeled 'Sparkle' at /mnt/sparkle
   fileSystems."/mnt/sparkle" = {
     device = "/dev/disk/by-label/Sparkle";
     fsType = "ext4";
-    neededForBoot = true;
   };
 
-  fileSystems."/home" = {
-    device = "/mnt/sparkle/home";
-    fsType = "none";
-    options = [ "bind" ];
-    neededForBoot = true;
-  };
 
-  ## Desktop
+  # Enable the X11 windowing system.
   services.xserver.enable = true;
-  services.xserver.xkb.layout = "us";
 
+  # Enable the KDE Plasma Desktop Environment.
   services.displayManager.sddm.enable = true;
-  services.displayManager.sddm.theme = "breeze";
   services.desktopManager.plasma6.enable = true;
 
-  ## Auto-login (renamed namespace)
-  services.displayManager.autoLogin.enable = true;
-  services.displayManager.autoLogin.user = "elf";
+  # Configure keymap in X11
+  services.xserver.xkb = {
+    layout = "us";
+    variant = "";
+  };
 
-  ## Printing
+  # Enable CUPS to print documents.
   services.printing.enable = true;
 
-  ## Audio (PipeWire)
-  services.pulseaudio.enable = false;
+  # Enable sound with pipewire.
+  hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
-
   services.pipewire = {
     enable = true;
     alsa.enable = true;
@@ -140,66 +146,37 @@ in
     pulse.enable = true;
   };
 
-  ## Virtualization
-  virtualisation.libvirtd.enable = true;
-  programs.virt-manager.enable = true;
-
-  ## User
+  # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.elf = {
     isNormalUser = true;
     description = "elf";
-    extraGroups = [
-      "wheel"
-      "networkmanager"
-      "libvirtd"
-    ];
+    extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
     packages = with pkgs; [
       kdePackages.kate
     ];
   };
 
-  ## Browsers
+
+  # Enable automatic login for the user.
+  services.xserver.displayManager.autoLogin.enable = true;
+  services.xserver.displayManager.autoLogin.user = "elf";
+
+  # Install firefox.
   programs.firefox.enable = true;
 
-  ## Nix settings
+  # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
-
   programs.nix-ld.enable = true;
 
-  nix.settings = {
-    experimental-features = [ "nix-command" "flakes" ];
-    auto-optimise-store = true;
-  };
 
-  nix.optimise = {
-    automatic = true;
-    dates = [ "weekly" ];
-  };
-
-  nix.gc = {
-    automatic = true;
-    dates = "weekly";
-    options = "--delete-older-than 7d";
-  };
-
-  ## zram swap (responsiveness)
-  zramSwap = {
-    enable = true;
-    algorithm = "zstd";
-    memoryPercent = 50;
-  };
-
-  ## Packages
+  # Install all required packages
   environment.systemPackages =
-    devStuff
-    ++ java
-    ++ terminalStuff
-    ++ basicStuff
-    ++ gamingStuff
-    ++ customScripts;
+    devStuff ++ java ++ terminalStuff ++ basicStuff ++ gamingStuff ++ customScripts ++ [ pkgs.nix-ld ];
 
-  environment.etc."tmux.conf".source =
-    /etc/nixos/assets/tmux.conf;
+    environment.etc."tmux.conf".source = /etc/nixos/assets/tmux.conf;
 
+  # This value determines the NixOS release from which the default
+  # settings for stateful data, like file locations and database versions
+  # on your system were taken.
   system.stateVersion = "24.11";
-}
+} 
