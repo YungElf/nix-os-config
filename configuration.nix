@@ -92,7 +92,7 @@ in
     LC_TIME = "en_US.UTF-8";
   };
 
-  ## Graphics (renamed from hardware.opengl)
+  ## Graphics
   hardware.graphics.enable = true;
   hardware.graphics.enable32Bit = true;
 
@@ -123,14 +123,14 @@ in
   services.displayManager.sddm.theme = "breeze";
   services.desktopManager.plasma6.enable = true;
 
-  ## Auto-login (renamed namespace)
+  ## Auto-login
   services.displayManager.autoLogin.enable = true;
   services.displayManager.autoLogin.user = "elf";
 
   ## Printing
   services.printing.enable = true;
 
-  ## Audio (PipeWire)
+  ## Audio
   services.pulseaudio.enable = false;
   security.rtkit.enable = true;
 
@@ -164,7 +164,6 @@ in
 
   ## Nix settings
   nixpkgs.config.allowUnfree = true;
-
   programs.nix-ld.enable = true;
 
   nix.settings = {
@@ -183,15 +182,29 @@ in
     options = "--delete-older-than 7d";
   };
 
-  ## zram swap (responsiveness)
+  ## zram swap
   zramSwap = {
     enable = true;
     algorithm = "zstd";
     memoryPercent = 50;
   };
-  
-  ##CAC Reader
+
+  ## CAC / smart card
   services.pcscd.enable = true;
+
+  environment.etc."opensc.conf".text = ''
+    app default {
+      debug = 3;
+    }
+
+    framework pkcs15 {
+      use_file_caching = true;
+    }
+
+    reader_driver pcsc {
+      enable_pinpad = false;
+    }
+  '';
 
   ## Packages
   environment.systemPackages =
@@ -205,7 +218,7 @@ in
       opensc
       ccid
       pcsctools
-    ]);  
+    ]);
 
   environment.etc."tmux.conf".source =
     /etc/nixos/assets/tmux.conf;
