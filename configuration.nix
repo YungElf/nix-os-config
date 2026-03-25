@@ -218,6 +218,8 @@ in
       opensc
       ccid
       pcsctools
+      gnupg
+      pinentry-qt
     ]);
 
   environment.etc."tmux.conf".source =
