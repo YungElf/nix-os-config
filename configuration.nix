@@ -189,6 +189,9 @@ in
     algorithm = "zstd";
     memoryPercent = 50;
   };
+  
+  ##CAC Reader
+  services.pcscd.enable = true;
 
   ## Packages
   environment.systemPackages =
@@ -197,7 +200,12 @@ in
     ++ terminalStuff
     ++ basicStuff
     ++ gamingStuff
-    ++ customScripts;
+    ++ customScripts
+    ++ (with pkgs; [
+      opensc
+      ccid
+      pcsctools
+    ]);  
 
   environment.etc."tmux.conf".source =
     /etc/nixos/assets/tmux.conf;
