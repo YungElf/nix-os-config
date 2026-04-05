@@ -41,7 +41,6 @@ let
 
   gamingStuff = with pkgs; [
     steam
-    bolt-launcher
     lutris
     discord-ptb
     mumble
