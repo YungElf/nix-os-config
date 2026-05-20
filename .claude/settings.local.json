@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs -I {} git show {}:configuration.nix)",
+      "Bash(sudo du:*)",
+      "Bash(sudo journalctl:*)",
+      "Bash(sudo nix-env:*)",
+      "Bash(findmnt --real)",
+      "Bash(mount)",
+      "Bash(sudo ls:*)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(sudo bash:*)",
+      "Bash(du -sh /var/*)",
+      "Read(//mnt/**)",
+      "Read(//root/**)"
+    ]
+  }
+}

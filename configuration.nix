@@ -15,8 +15,6 @@ let
     code-cursor-fhs
     jetbrains.idea-ultimate
     wineWowPackages.stable
-    direnv
-    nix-direnv
     python3
     teams-for-linux
   ];
@@ -57,7 +55,7 @@ let
     (writeShellScriptBin "firefox" ''
       exec ${pkgs.firefox}/bin/firefox \
         --no-remote \
-        --profile /etc/nixos/assets/firefox-hardmode
+        --profile /home/elf/.mozilla/firefox/hardmode
     '')
   ];
 in
@@ -66,37 +64,32 @@ in
     ./hardware-configuration.nix
   ];
 
-  ## Bootloader
+  # ── Bootloader ────────────────────────────────────────────────────────────
   boot.loader.systemd-boot.enable = true;
   boot.loader.systemd-boot.configurationLimit = 10;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  ## Networking
+  # ── Networking ────────────────────────────────────────────────────────────
   networking.hostName = "nixos";
   networking.networkmanager.enable = true;
   networking.firewall.enable = true;
 
-  ## Time / Locale
+  # ── Locale & Time ─────────────────────────────────────────────────────────
   time.timeZone = "America/Phoenix";
-
   i18n.defaultLocale = "en_US.UTF-8";
-  i18n.extraLocaleSettings = {
-    LC_ADDRESS = "en_US.UTF-8";
-    LC_IDENTIFICATION = "en_US.UTF-8";
-    LC_MEASUREMENT = "en_US.UTF-8";
-    LC_MONETARY = "en_US.UTF-8";
-    LC_NAME = "en_US.UTF-8";
-    LC_NUMERIC = "en_US.UTF-8";
-    LC_PAPER = "en_US.UTF-8";
-    LC_TELEPHONE = "en_US.UTF-8";
-    LC_TIME = "en_US.UTF-8";
-  };
 
-  ## Graphics
+  # ── Hardware ──────────────────────────────────────────────────────────────
+  # Enables AMD firmware + microcode updates (hardware-configuration.nix gates
+  # hardware.cpu.amd.updateMicrocode on this flag, so it was previously off).
+  hardware.enableRedistributableFirmware = true;
+
+  # RX 5700 XT (RDNA1): RADV is the recommended Vulkan driver — it outperforms
+  # amdvlk on this GPU generation and is included automatically with Mesa.
+  # enable32Bit covers 32-bit Vulkan for Steam/Wine via the same Mesa stack.
   hardware.graphics.enable = true;
   hardware.graphics.enable32Bit = true;
 
-  ## Filesystems
+  # ── Filesystems ───────────────────────────────────────────────────────────
   fileSystems."/mnt/Ultra" = {
     device = "/dev/disk/by-label/Ultra";
     fsType = "ext4";
@@ -115,7 +108,7 @@ in
     neededForBoot = true;
   };
 
-  ## Desktop
+  # ── Desktop ───────────────────────────────────────────────────────────────
   services.xserver.enable = true;
   services.xserver.xkb.layout = "us";
 
@@ -123,14 +116,10 @@ in
   services.displayManager.sddm.theme = "breeze";
   services.desktopManager.plasma6.enable = true;
 
-  ## Auto-login
   services.displayManager.autoLogin.enable = true;
   services.displayManager.autoLogin.user = "elf";
 
-  ## Printing
-  services.printing.enable = true;
-
-  ## Audio
+  # ── Audio ─────────────────────────────────────────────────────────────────
   services.pulseaudio.enable = false;
   security.rtkit.enable = true;
 
@@ -141,55 +130,14 @@ in
     pulse.enable = true;
   };
 
-  ## Virtualization
+  # ── Printing ──────────────────────────────────────────────────────────────
+  services.printing.enable = true;
+
+  # ── Virtualization ────────────────────────────────────────────────────────
   virtualisation.libvirtd.enable = true;
   programs.virt-manager.enable = true;
 
-  ## User
-  users.users.elf = {
-    isNormalUser = true;
-    description = "elf";
-    extraGroups = [
-      "wheel"
-      "networkmanager"
-      "libvirtd"
-    ];
-    packages = with pkgs; [
-      kdePackages.kate
-    ];
-  };
-
-  ## Browsers
-  programs.firefox.enable = true;
-
-  ## Nix settings
-  nixpkgs.config.allowUnfree = true;
-  programs.nix-ld.enable = true;
-
-  nix.settings = {
-    experimental-features = [ "nix-command" "flakes" ];
-    auto-optimise-store = true;
-  };
-
-  nix.optimise = {
-    automatic = true;
-    dates = [ "weekly" ];
-  };
-
-  nix.gc = {
-    automatic = true;
-    dates = "weekly";
-    options = "--delete-older-than 7d";
-  };
-
-  ## zram swap
-  zramSwap = {
-    enable = true;
-    algorithm = "zstd";
-    memoryPercent = 50;
-  };
-
-  ## CAC / smart card
+  # ── Smart Card / CAC ──────────────────────────────────────────────────────
   services.pcscd.enable = true;
 
   environment.etc."opensc.conf".text = ''
@@ -206,7 +154,32 @@ in
     }
   '';
 
-  ## Packages
+  # ── User ──────────────────────────────────────────────────────────────────
+  users.users.elf = {
+    isNormalUser = true;
+    description = "elf";
+    extraGroups = [
+      "wheel"
+      "networkmanager"
+      "libvirtd"
+    ];
+    packages = with pkgs; [
+      kdePackages.kate
+    ];
+  };
+
+  # ── Programs ──────────────────────────────────────────────────────────────
+  programs.firefox.enable = true;
+  programs.nix-ld.enable = true;
+
+  # Replaces bare direnv/nix-direnv packages — the module adds shell hooks
+  # so `use nix` and `use flake` work automatically in project dirs.
+  programs.direnv.enable = true;
+  programs.direnv.nix-direnv.enable = true;
+
+  # ── Packages ──────────────────────────────────────────────────────────────
+  nixpkgs.config.allowUnfree = true;
+
   environment.systemPackages =
     devStuff
     ++ java
@@ -222,8 +195,30 @@ in
       pinentry-qt
     ]);
 
-  environment.etc."tmux.conf".source =
-    /etc/nixos/assets/tmux.conf;
+  environment.etc."tmux.conf".source = /etc/nixos/assets/tmux.conf;
+
+  # ── Nix / Store ───────────────────────────────────────────────────────────
+  nix.settings = {
+    experimental-features = [ "nix-command" "flakes" ];
+    auto-optimise-store = true;   # deduplicates store on every build
+  };
+
+  # 14 days gives two full weeks of rollback headroom before GC.
+  # nix.optimise (scheduled) removed — auto-optimise-store covers this.
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+    options = "--delete-older-than 14d";
+  };
+
+  # ── System Services ───────────────────────────────────────────────────────
+  services.journald.extraConfig = "SystemMaxUse=500M";
+
+  zramSwap = {
+    enable = true;
+    algorithm = "zstd";
+    memoryPercent = 50;
+  };
 
   system.stateVersion = "24.11";
 }
