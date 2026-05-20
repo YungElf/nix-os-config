@@ -31,7 +31,7 @@ let
 
   basicStuff = with pkgs; [
     xclip
-    jetbrains-mono
+    nerd-fonts.jetbrains-mono  # kitty.conf specifies the Nerd Font variant
     vlc
     google-chrome
     qbittorrent-enhanced
@@ -119,6 +119,13 @@ in
   services.displayManager.autoLogin.enable = true;
   services.displayManager.autoLogin.user = "elf";
 
+  # Required for KWin screenshot authorization and other portal-backed features
+  # (file picker, screen sharing, etc.). kde portal is set explicitly to avoid
+  # conflicts when multiple portals are present (e.g. from Steam/Flatpak).
+  xdg.portal.enable = true;
+  xdg.portal.extraPortals = [ pkgs.kdePackages.xdg-desktop-portal-kde ];
+  xdg.portal.xdgOpenUsePortal = true;
+
   # ── Audio ─────────────────────────────────────────────────────────────────
   services.pulseaudio.enable = false;
   security.rtkit.enable = true;
@@ -137,7 +144,7 @@ in
   virtualisation.libvirtd.enable = true;
   programs.virt-manager.enable = true;
 
-# ── User ──────────────────────────────────────────────────────────────────
+  # ── User ──────────────────────────────────────────────────────────────────
   users.users.elf = {
     isNormalUser = true;
     description = "elf";
@@ -148,6 +155,7 @@ in
     ];
     packages = with pkgs; [
       kdePackages.kate
+      kdePackages.spectacle
     ];
   };
 
@@ -167,7 +175,7 @@ in
   # Works automatically with Steam and Lutris — no per-game config needed.
   programs.gamemode.enable = true;
 
-  # GnuPG agent for CAC key management across sessions.
+  # GnuPG agent for git signing and key management across sessions.
   programs.gnupg.agent.enable = true;
 
   # ── Packages ──────────────────────────────────────────────────────────────
