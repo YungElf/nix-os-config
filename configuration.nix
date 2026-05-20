@@ -38,7 +38,7 @@ let
   ];
 
   gamingStuff = with pkgs; [
-    steam
+    # steam is managed via programs.steam module below
     lutris
     bolt-launcher
     discord-ptb
@@ -137,24 +137,7 @@ in
   virtualisation.libvirtd.enable = true;
   programs.virt-manager.enable = true;
 
-  # ── Smart Card / CAC ──────────────────────────────────────────────────────
-  services.pcscd.enable = true;
-
-  environment.etc."opensc.conf".text = ''
-    app default {
-      debug = 3;
-    }
-
-    framework pkcs15 {
-      use_file_caching = true;
-    }
-
-    reader_driver pcsc {
-      enable_pinpad = false;
-    }
-  '';
-
-  # ── User ──────────────────────────────────────────────────────────────────
+# ── User ──────────────────────────────────────────────────────────────────
   users.users.elf = {
     isNormalUser = true;
     description = "elf";
@@ -177,6 +160,16 @@ in
   programs.direnv.enable = true;
   programs.direnv.nix-direnv.enable = true;
 
+  # Steam module handles udev rules, 32-bit libs, and steam-hardware in one shot.
+  programs.steam.enable = true;
+
+  # Switches CPU governor to performance and raises game process priority on launch.
+  # Works automatically with Steam and Lutris — no per-game config needed.
+  programs.gamemode.enable = true;
+
+  # GnuPG agent for CAC key management across sessions.
+  programs.gnupg.agent.enable = true;
+
   # ── Packages ──────────────────────────────────────────────────────────────
   nixpkgs.config.allowUnfree = true;
 
@@ -188,14 +181,14 @@ in
     ++ gamingStuff
     ++ customScripts
     ++ (with pkgs; [
-      opensc
-      ccid
-      pcsctools
       gnupg
-      pinentry-qt
     ]);
 
   environment.etc."tmux.conf".source = /etc/nixos/assets/tmux.conf;
+
+  environment.sessionVariables = {
+    MOZ_USE_XINPUT2 = "1";  # fixes Firefox scroll precision on X11
+  };
 
   # ── Nix / Store ───────────────────────────────────────────────────────────
   nix.settings = {
