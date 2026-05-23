@@ -12,7 +12,13 @@
       "Bash(sudo bash:*)",
       "Bash(du -sh /var/*)",
       "Read(//mnt/**)",
-      "Read(//root/**)"
+      "Read(//root/**)",
+      "Bash(fc-list)",
+      "Read(//home/elf/.cache/fontconfig/**)",
+      "Read(//run/current-system/sw/share/fontconfig/**)",
+      "Bash(fc-match \"JetBrains Mono\")",
+      "Bash(fc-match \"JetBrains Mono:style=Regular\")",
+      "Bash(sudo nixos-rebuild test)"
     ]
   }
 }

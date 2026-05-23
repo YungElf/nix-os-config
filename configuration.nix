@@ -120,10 +120,14 @@ in
   services.displayManager.autoLogin.user = "elf";
 
   # Required for KWin screenshot authorization and other portal-backed features
-  # (file picker, screen sharing, etc.). kde portal is set explicitly to avoid
-  # conflicts when multiple portals are present (e.g. from Steam/Flatpak).
+  # (file picker, screen sharing, etc.). KDE portal handles screenshots; GTK
+  # portal gives Chrome/Firefox a native-looking file dialog instead of routing
+  # them through the Qt one (which renders text as tofu for GTK clients).
   xdg.portal.enable = true;
-  xdg.portal.extraPortals = [ pkgs.kdePackages.xdg-desktop-portal-kde ];
+  xdg.portal.extraPortals = [
+    pkgs.kdePackages.xdg-desktop-portal-kde
+    pkgs.xdg-desktop-portal-gtk
+  ];
   xdg.portal.xdgOpenUsePortal = true;
 
   # ── Audio ─────────────────────────────────────────────────────────────────
