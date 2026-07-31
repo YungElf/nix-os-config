@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, lib, ... }:
 
 let
   devStuff = with pkgs; [
@@ -147,6 +147,29 @@ in
   # ── Virtualization ────────────────────────────────────────────────────────
   virtualisation.libvirtd.enable = true;
   programs.virt-manager.enable = true;
+
+  # ── Databases ─────────────────────────────────────────────────────────────
+  # MySQL for AzerothCore development (/mnt/Ultra/CodeStuff/azerothcore-wotlk).
+  #
+  # mysql84 is chosen deliberately over mariadb: the core links against the
+  # MySQL 8.4 client library, and 8.4 disables mysql_native_password by default,
+  # which is the auth plugin MariaDB would offer. Matching server to client
+  # avoids that mismatch.
+  #
+  # dataDir is on /mnt/Ultra, not the root drive — the AzerothCore world
+  # database is several GB and root stays lean.
+  services.mysql = {
+    enable = true;
+    package = pkgs.mysql84;
+    dataDir = "/mnt/Ultra/mysql";
+  };
+
+  # Installed permanently but NOT started at boot — an idle server would hold
+  # memory for nothing. Start it only while working on the server:
+  #   sudo systemctl start mysql
+  #   sudo systemctl stop mysql
+  #   systemctl status mysql
+  systemd.services.mysql.wantedBy = lib.mkForce [ ];
 
   # ── User ──────────────────────────────────────────────────────────────────
   users.users.elf = {

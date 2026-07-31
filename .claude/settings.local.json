@@ -18,7 +18,17 @@
       "Read(//run/current-system/sw/share/fontconfig/**)",
       "Bash(fc-match \"JetBrains Mono\")",
       "Bash(fc-match \"JetBrains Mono:style=Regular\")",
-      "Bash(sudo nixos-rebuild test)"
+      "Bash(sudo nixos-rebuild test)",
+      "Bash(gsettings get *)",
+      "Bash(fc-match sans *)",
+      "Bash(fc-match monospace *)",
+      "Bash(fc-match serif *)",
+      "Bash(fc-match \"Cantarell 11\")",
+      "Bash(pango-view --font=\"JetBrains Mono,  10\" --text=\"hello\")",
+      "Bash(gsettings set *)",
+      "Bash(nix-store -q --deriver /run/current-system/sw/share/fonts/truetype/JetBrainsMono-Regular.ttf)",
+      "Bash(fc-match -v \"JetBrains Mono\")",
+      "Bash(env)"
     ]
   }
 }
